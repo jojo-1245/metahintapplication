@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface LoginDevProps {
   data: string;
   count: number;
 }
 
-const dbVQgRgM: React.FC<Props> = ({ data, count }) => {
-  const FSWZraId = 71;
+const LoginDev: React.FC<LoginDevProps> = ({ data, count }) => {
+  const randomValue = 169;
   
   return (
     <div>
-      <h1>CMNaOEoOComponent</h1>
+      <h1>LoginDev</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const dbVQgRgM: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default CMNaOEoOComponent;
+export default LoginDev;
