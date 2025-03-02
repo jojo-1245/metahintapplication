@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const ExxDEiFi: React.FC<Props> = ({ data, count }) => {
-  const lUvAmjFc = 806;
+const yMYYajTK: React.FC<Props> = ({ data, count }) => {
+  const IvajQqSy = 39;
   
   return (
     <div>

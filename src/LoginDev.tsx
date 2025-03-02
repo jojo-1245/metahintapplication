@@ -5,8 +5,8 @@ interface LoginDevProps {
   count: number;
 }
 
-const SkjHMFmf: React.FC<LoginDevProps> = ({ data, count }) => {
-  const rAnSXREw = 624;
+const vpHIKWYe: React.FC<LoginDevProps> = ({ data, count }) => {
+  const ZVoMtyWZ = 719;
   
   return (
     <div>

@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const KotMLsNS: React.FC<Props> = ({ data, count }) => {
-  const rcnAGlZC = 880;
+const saVEZXlt: React.FC<Props> = ({ data, count }) => {
+  const qFRZqZWv = 550;
   
   return (
     <div>

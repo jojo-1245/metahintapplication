@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const ikzZnMxF: React.FC<Props> = ({
+const GBDAObSS: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const ikzZnMxF: React.FC<Props> = ({
   );
 };
 
-const aISfcMIS = StyleSheet.create({
+const cKpndTsF = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 846,
+    marginBottom: 785,
   },
   input: {
-    fontSize: 683,
-    fontWeight: '331',
-    color: '#249',
-    minWidth: 624,
+    fontSize: 577,
+    fontWeight: '550',
+    color: '#137',
+    minWidth: 442,
     textAlign: 'center',
   },
   disabled: {
-    color: '#389',
+    color: '#876',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 619,
-    paddingHorizontal: 930,
-    paddingVertical: 221,
-    borderRadius: 90,
+    fontSize: 752,
+    paddingHorizontal: 886,
+    paddingVertical: 974,
+    borderRadius: 483,
   },
 });
 
