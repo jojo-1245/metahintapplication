@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const GBDAObSS: React.FC<Props> = ({
+const sJMioXdx: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const GBDAObSS: React.FC<Props> = ({
   );
 };
 
-const cKpndTsF = StyleSheet.create({
+const tcfRWgQd = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 785,
+    marginBottom: 815,
   },
   input: {
-    fontSize: 577,
-    fontWeight: '550',
-    color: '#137',
-    minWidth: 442,
+    fontSize: 51,
+    fontWeight: '39',
+    color: '#275',
+    minWidth: 568,
     textAlign: 'center',
   },
   disabled: {
-    color: '#876',
+    color: '#203',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 752,
-    paddingHorizontal: 886,
-    paddingVertical: 974,
-    borderRadius: 483,
+    fontSize: 892,
+    paddingHorizontal: 189,
+    paddingVertical: 290,
+    borderRadius: 153,
   },
 });
 
