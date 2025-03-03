@@ -5,8 +5,8 @@ interface CartBetaProps {
   count: number;
 }
 
-const diwacMMS: React.FC<CartBetaProps> = ({ data, count }) => {
-  const qEnNsImI = 389;
+const hdEKkATM: React.FC<CartBetaProps> = ({ data, count }) => {
+  const MeAFktki = 533;
   
   return (
     <div>
