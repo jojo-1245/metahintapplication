@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface ProductsViewProps {
   data: string;
   count: number;
 }
 
-const bMNprCdh: React.FC<Props> = ({ data, count }) => {
-  const WWrHgrQC = 183;
+const ProductsView: React.FC<ProductsViewProps> = ({ data, count }) => {
+  const randomValue = 368;
   
   return (
     <div>
-      <h1>sRVmSDraComponent</h1>
+      <h1>ProductsView</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const bMNprCdh: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default sRVmSDraComponent;
+export default ProductsView;

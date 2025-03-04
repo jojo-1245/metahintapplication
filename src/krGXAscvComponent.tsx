@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const eOxIAsum: React.FC<Props> = ({ data, count }) => {
-  const jUTZUvxF = 743;
+const deVctuko: React.FC<Props> = ({ data, count }) => {
+  const uOjreLty = 195;
   
   return (
     <div>
