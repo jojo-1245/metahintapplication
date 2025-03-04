@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface MainPageTestProps {
   data: string;
   count: number;
 }
 
-const FFvJPHww: React.FC<Props> = ({ data, count }) => {
-  const XOvuyYho = 269;
+const MainPageTest: React.FC<MainPageTestProps> = ({ data, count }) => {
+  const randomValue = 141;
   
   return (
     <div>
-      <h1>krGXAscvComponent</h1>
+      <h1>MainPageTest</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const FFvJPHww: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default krGXAscvComponent;
+export default MainPageTest;
