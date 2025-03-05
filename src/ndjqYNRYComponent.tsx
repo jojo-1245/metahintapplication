@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const pyOSHTmo: React.FC<Props> = ({ data, count }) => {
-  const cvukLCxK = 553;
+const agdqOVCy: React.FC<Props> = ({ data, count }) => {
+  const cdrMDfgj = 479;
   
   return (
     <div>

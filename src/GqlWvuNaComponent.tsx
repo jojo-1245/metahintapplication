@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const jsGrypFr: React.FC<Props> = ({ data, count }) => {
-  const uLqSykmX = 838;
+const pgDfVZXr: React.FC<Props> = ({ data, count }) => {
+  const RLqJtFic = 590;
   
   return (
     <div>

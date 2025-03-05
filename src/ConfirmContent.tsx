@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const QzipMSEE: React.FC<ConfirmContentProp> = ({address}) => {
+const GjyvepZr: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('285');
+  const [digits, setDigits] = useState<string>('419');
 
   return (
     <View>

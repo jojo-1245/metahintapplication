@@ -5,8 +5,8 @@ interface HomePagePermProps {
   count: number;
 }
 
-const HomePagePerm: React.FC<HomePagePermProps> = ({ data, count }) => {
-  const randomValue = 921;
+const LdPPzdnW: React.FC<HomePagePermProps> = ({ data, count }) => {
+  const FSMxVszd = 116;
   
   return (
     <div>
