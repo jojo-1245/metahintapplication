@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const GirGCipB: React.FC<Props> = ({ data, count }) => {
-  const aycaFRra = 334;
+const jIGargts: React.FC<Props> = ({ data, count }) => {
+  const jkcjAmuN = 741;
   
   return (
     <div>
