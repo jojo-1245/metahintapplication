@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const iypmKgrg: React.FC<Props> = ({ data, count }) => {
-  const ByVFHGhg = 297;
+const KGkGsevG: React.FC<Props> = ({ data, count }) => {
+  const CXhPlSxz = 832;
   
   return (
     <div>
