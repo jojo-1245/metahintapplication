@@ -5,8 +5,8 @@ interface ProfileServiceProps {
   count: number;
 }
 
-const ProfileService: React.FC<ProfileServiceProps> = ({ data, count }) => {
-  const randomValue = 189;
+const WVTPjvpi: React.FC<ProfileServiceProps> = ({ data, count }) => {
+  const tzCRATql = 831;
   
   return (
     <div>

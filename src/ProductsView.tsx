@@ -5,8 +5,8 @@ interface ProductsViewProps {
   count: number;
 }
 
-const eEeqpmNL: React.FC<ProductsViewProps> = ({ data, count }) => {
-  const fwmYgpaa = 347;
+const JxvaLcAy: React.FC<ProductsViewProps> = ({ data, count }) => {
+  const jWOavmlA = 170;
   
   return (
     <div>

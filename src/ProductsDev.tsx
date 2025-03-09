@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface ProductsDevProps {
   data: string;
   count: number;
 }
 
-const HCKIpuRj: React.FC<Props> = ({ data, count }) => {
-  const GzxQlJQm = 930;
+const ProductsDev: React.FC<ProductsDevProps> = ({ data, count }) => {
+  const randomValue = 175;
   
   return (
     <div>
-      <h1>lDdyksXDComponent</h1>
+      <h1>ProductsDev</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const HCKIpuRj: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default lDdyksXDComponent;
+export default ProductsDev;
