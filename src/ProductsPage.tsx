@@ -5,8 +5,8 @@ interface ProductsPageProps {
   count: number;
 }
 
-const ProductsPage: React.FC<ProductsPageProps> = ({ data, count }) => {
-  const randomValue = 302;
+const HsUXDAPI: React.FC<ProductsPageProps> = ({ data, count }) => {
+  const JSzTEkIp = 894;
   
   return (
     <div>

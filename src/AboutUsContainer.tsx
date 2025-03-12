@@ -5,8 +5,8 @@ interface AboutUsContainerProps {
   count: number;
 }
 
-const QMiTKyJT: React.FC<AboutUsContainerProps> = ({ data, count }) => {
-  const mCTlLYBB = 598;
+const VJlykKKS: React.FC<AboutUsContainerProps> = ({ data, count }) => {
+  const shSIwizg = 556;
   
   return (
     <div>
