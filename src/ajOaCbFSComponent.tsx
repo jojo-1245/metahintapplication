@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const CultKgnu: React.FC<Props> = ({ data, count }) => {
-  const EXQhuaTS = 838;
+const DWLxuIna: React.FC<Props> = ({ data, count }) => {
+  const kXcOtqYu = 287;
   
   return (
     <div>

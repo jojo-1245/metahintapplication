@@ -5,8 +5,8 @@ interface ProfileServiceProps {
   count: number;
 }
 
-const myFgkpPT: React.FC<ProfileServiceProps> = ({ data, count }) => {
-  const QEFQkTws = 417;
+const PaXZQQym: React.FC<ProfileServiceProps> = ({ data, count }) => {
+  const KhxUXcmB = 415;
   
   return (
     <div>

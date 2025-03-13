@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface UserInfoPageProps {
+interface AboutUsUtilProps {
   data: string;
   count: number;
 }
 
-const JzbuppYh: React.FC<UserInfoPageProps> = ({ data, count }) => {
-  const VopJkPiE = 388;
+const AboutUsUtil: React.FC<AboutUsUtilProps> = ({ data, count }) => {
+  const randomValue = 494;
   
   return (
     <div>
-      <h1>UserInfoPage</h1>
+      <h1>AboutUsUtil</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const JzbuppYh: React.FC<UserInfoPageProps> = ({ data, count }) => {
   );
 };
 
-export default UserInfoPage;
+export default AboutUsUtil;
