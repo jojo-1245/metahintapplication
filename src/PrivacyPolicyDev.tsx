@@ -5,8 +5,8 @@ interface PrivacyPolicyDevProps {
   count: number;
 }
 
-const iRQPCZag: React.FC<PrivacyPolicyDevProps> = ({ data, count }) => {
-  const NzoEFgNm = 226;
+const tiFNDubK: React.FC<PrivacyPolicyDevProps> = ({ data, count }) => {
+  const LkHMYWbg = 348;
   
   return (
     <div>
