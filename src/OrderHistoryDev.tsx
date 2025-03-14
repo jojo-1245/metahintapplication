@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface OrderHistoryDevProps {
   data: string;
   count: number;
 }
 
-const dAGsOjyq: React.FC<Props> = ({ data, count }) => {
-  const rVoqTcwk = 839;
+const OrderHistoryDev: React.FC<OrderHistoryDevProps> = ({ data, count }) => {
+  const randomValue = 8;
   
   return (
     <div>
-      <h1>ZIokuyObComponent</h1>
+      <h1>OrderHistoryDev</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const dAGsOjyq: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default ZIokuyObComponent;
+export default OrderHistoryDev;

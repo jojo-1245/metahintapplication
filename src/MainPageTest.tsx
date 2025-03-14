@@ -5,8 +5,8 @@ interface MainPageTestProps {
   count: number;
 }
 
-const FluvbZex: React.FC<MainPageTestProps> = ({ data, count }) => {
-  const VULMgJBe = 908;
+const leXQlQAs: React.FC<MainPageTestProps> = ({ data, count }) => {
+  const nzzOTDxl = 796;
   
   return (
     <div>
