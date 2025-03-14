@@ -5,8 +5,8 @@ interface TermsOfServiceTestProps {
   count: number;
 }
 
-const rwRxiPPf: React.FC<TermsOfServiceTestProps> = ({ data, count }) => {
-  const RVHKCIcY = 636;
+const JtGfKJUf: React.FC<TermsOfServiceTestProps> = ({ data, count }) => {
+  const nrKOXKRr = 830;
   
   return (
     <div>
