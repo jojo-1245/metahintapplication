@@ -5,8 +5,8 @@ interface AboutUsUtilProps {
   count: number;
 }
 
-const kiOHdETl: React.FC<AboutUsUtilProps> = ({ data, count }) => {
-  const JtLhXtVL = 782;
+const NjkGaDcw: React.FC<AboutUsUtilProps> = ({ data, count }) => {
+  const OSpVMjSN = 790;
   
   return (
     <div>

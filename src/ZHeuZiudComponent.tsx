@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const lcOPLRUB: React.FC<Props> = ({ data, count }) => {
-  const yXiPNsaG = 739;
+const loZoNiMs: React.FC<Props> = ({ data, count }) => {
+  const WhXJSIKV = 318;
   
   return (
     <div>

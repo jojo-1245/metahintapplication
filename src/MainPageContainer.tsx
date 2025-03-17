@@ -5,8 +5,8 @@ interface MainPageContainerProps {
   count: number;
 }
 
-const MainPageContainer: React.FC<MainPageContainerProps> = ({ data, count }) => {
-  const randomValue = 303;
+const kTWMOXaf: React.FC<MainPageContainerProps> = ({ data, count }) => {
+  const koLiKDrv = 666;
   
   return (
     <div>
