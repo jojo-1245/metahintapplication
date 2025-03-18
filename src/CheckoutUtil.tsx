@@ -5,8 +5,8 @@ interface CheckoutUtilProps {
   count: number;
 }
 
-const CheckoutUtil: React.FC<CheckoutUtilProps> = ({ data, count }) => {
-  const randomValue = 475;
+const uaUJoZNA: React.FC<CheckoutUtilProps> = ({ data, count }) => {
+  const sqmtixKl = 794;
   
   return (
     <div>

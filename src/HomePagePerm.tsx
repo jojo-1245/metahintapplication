@@ -5,8 +5,8 @@ interface HomePagePermProps {
   count: number;
 }
 
-const aycCRPcQ: React.FC<HomePagePermProps> = ({ data, count }) => {
-  const rLOXdtJn = 693;
+const wsrTvsbX: React.FC<HomePagePermProps> = ({ data, count }) => {
+  const XOEjoiAu = 697;
   
   return (
     <div>
