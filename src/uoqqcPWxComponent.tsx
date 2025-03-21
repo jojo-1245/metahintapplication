@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const pyFIrMQL: React.FC<Props> = ({ data, count }) => {
-  const FWEkGKKV = 583;
+const NOjyUXEg: React.FC<Props> = ({ data, count }) => {
+  const ZtpxNpyu = 828;
   
   return (
     <div>

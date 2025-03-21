@@ -5,8 +5,8 @@ interface ProductsPageProps {
   count: number;
 }
 
-const WIqEKYIO: React.FC<ProductsPageProps> = ({ data, count }) => {
-  const jtwCjxAP = 982;
+const XHKarQMf: React.FC<ProductsPageProps> = ({ data, count }) => {
+  const qEJXItpx = 570;
   
   return (
     <div>
