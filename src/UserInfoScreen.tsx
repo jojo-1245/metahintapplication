@@ -5,8 +5,8 @@ interface UserInfoScreenProps {
   count: number;
 }
 
-const UserInfoScreen: React.FC<UserInfoScreenProps> = ({ data, count }) => {
-  const randomValue = 336;
+const uWjWSfRs: React.FC<UserInfoScreenProps> = ({ data, count }) => {
+  const gQeDTjjn = 588;
   
   return (
     <div>
