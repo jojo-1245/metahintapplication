@@ -5,8 +5,8 @@ interface MainPageContainerProps {
   count: number;
 }
 
-const KttwDCxl: React.FC<MainPageContainerProps> = ({ data, count }) => {
-  const IXLzkAFN = 464;
+const flbJmlWE: React.FC<MainPageContainerProps> = ({ data, count }) => {
+  const ZFPTtyFY = 714;
   
   return (
     <div>

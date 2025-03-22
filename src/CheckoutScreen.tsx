@@ -5,8 +5,8 @@ interface CheckoutScreenProps {
   count: number;
 }
 
-const rsOkUdMv: React.FC<CheckoutScreenProps> = ({ data, count }) => {
-  const bvTUVOHu = 68;
+const obVXbbGb: React.FC<CheckoutScreenProps> = ({ data, count }) => {
+  const bNfriBlv = 896;
   
   return (
     <div>
