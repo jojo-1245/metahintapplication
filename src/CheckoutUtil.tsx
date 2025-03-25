@@ -5,8 +5,8 @@ interface CheckoutUtilProps {
   count: number;
 }
 
-const TPDbKaTO: React.FC<CheckoutUtilProps> = ({ data, count }) => {
-  const dXxUuZAl = 389;
+const KBYHMlRR: React.FC<CheckoutUtilProps> = ({ data, count }) => {
+  const HEtzWXBB = 168;
   
   return (
     <div>

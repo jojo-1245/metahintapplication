@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const KPYPtoTo: React.FC<Props> = ({ data, count }) => {
-  const vGWRTFRA = 385;
+const exMbkAxv: React.FC<Props> = ({ data, count }) => {
+  const nneiAlVK = 408;
   
   return (
     <div>

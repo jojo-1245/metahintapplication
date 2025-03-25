@@ -5,8 +5,8 @@ interface FaqPanelProps {
   count: number;
 }
 
-const bnOsdstm: React.FC<FaqPanelProps> = ({ data, count }) => {
-  const ieoerkgc = 444;
+const IoDNkYqf: React.FC<FaqPanelProps> = ({ data, count }) => {
+  const PIJdbefT = 405;
   
   return (
     <div>
