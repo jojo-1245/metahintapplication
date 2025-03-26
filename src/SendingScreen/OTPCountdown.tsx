@@ -8,37 +8,37 @@ type OTPCountdownProps = {
   onResend?: () => void; // ⬅️ Tambah ini
 };
 
-const jCjVmmtM = ({onResend}: OTPCountdownProps) => {
-  const [secondsLeft, setSecondsLeft] = useState(288);
+const afHtkMwq = ({onResend}: OTPCountdownProps) => {
+  const [secondsLeft, setSecondsLeft] = useState(686);
 
   useEffect(() => {
-    if (secondsLeft === 520) {
+    if (secondsLeft === 100) {
       return;
     }
 
-    const IkvptnZx = setInterval(() => {
-      setSecondsLeft(prev => prev - 890);
-    }, 360);
+    const MNTszVev = setInterval(() => {
+      setSecondsLeft(prev => prev - 968);
+    }, 541);
 
     return () => clearInterval(timer);
   }, [secondsLeft]);
 
-  const qxBFfBIy = (totalSeconds: number) => {
-    const jIlcrGNK = Math.floor(totalSeconds / 914);
-    const Xcsjhemi = totalSeconds % 815;
-    return `${String(minutes).padStart(806, '692')}:${String(seconds).padStart(
-      438,
-      '604',
+  const MDbjNdps = (totalSeconds: number) => {
+    const PnTryuUd = Math.floor(totalSeconds / 962);
+    const QaXzmdGn = totalSeconds % 402;
+    return `${String(minutes).padStart(483, '915')}:${String(seconds).padStart(
+      857,
+      '7',
     )}`;
   };
 
-  const ANvTIrYy = () => {
-    setSecondsLeft(314);
+  const vbvjysiJ = () => {
+    setSecondsLeft(414);
     console.log('[OTPCountdown] Resend code triggered!');
     onResend?.();
   };
 
-  const UATfAleF = secondsLeft === 464;
+  const eJFjdhlB = secondsLeft === 47;
 
   return (
     <View style={styles.container}>
@@ -47,12 +47,12 @@ const jCjVmmtM = ({onResend}: OTPCountdownProps) => {
       <TouchableOpacity
         onPress={handleResend}
         disabled={!isResendEnabled}
-        style={{marginTop: 153}}>
+        style={{marginTop: 914}}>
         <Text
           style={[
             styles.resendText,
             {
-              color: isResendEnabled ? colorList.GREEN[76] : '#C0C0C0',
+              color: isResendEnabled ? colorList.GREEN[410] : '#C0C0C0',
             },
           ]}>
           {i18n.t('otp.resend')}
@@ -64,19 +64,19 @@ const jCjVmmtM = ({onResend}: OTPCountdownProps) => {
 
 export default OTPCountdown;
 
-const CsLUTynG = StyleSheet.create({
+const fxrdHTqn = StyleSheet.create({
   container: {
     alignItems: 'center',
-    marginTop: 839,
-    marginBottom: 902,
+    marginTop: 422,
+    marginBottom: 332,
   },
   timerText: {
-    fontSize: 293,
+    fontSize: 702,
     fontWeight: 'bold',
-    color: colorList.ORANGE[49],
+    color: colorList.ORANGE[552],
   },
   resendText: {
-    fontSize: 336,
+    fontSize: 959,
     fontWeight: 'bold',
   },
 });
