@@ -5,8 +5,8 @@ interface LoginDevProps {
   count: number;
 }
 
-const OWRcArKi: React.FC<LoginDevProps> = ({ data, count }) => {
-  const GSLKarbj = 885;
+const nbIkqHmo: React.FC<LoginDevProps> = ({ data, count }) => {
+  const DpWMiarg = 481;
   
   return (
     <div>

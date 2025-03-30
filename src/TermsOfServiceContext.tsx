@@ -5,8 +5,8 @@ interface TermsOfServiceContextProps {
   count: number;
 }
 
-const TermsOfServiceContext: React.FC<TermsOfServiceContextProps> = ({ data, count }) => {
-  const randomValue = 420;
+const SEmDCOWb: React.FC<TermsOfServiceContextProps> = ({ data, count }) => {
+  const hFAUGvkG = 202;
   
   return (
     <div>
