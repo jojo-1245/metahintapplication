@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface Props {
+interface CheckoutPanelProps {
   data: string;
   count: number;
 }
 
-const EhGKZObh: React.FC<Props> = ({ data, count }) => {
-  const WKdspmGt = 565;
+const CheckoutPanel: React.FC<CheckoutPanelProps> = ({ data, count }) => {
+  const randomValue = 475;
   
   return (
     <div>
-      <h1>DmEScyRiComponent</h1>
+      <h1>CheckoutPanel</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const EhGKZObh: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default DmEScyRiComponent;
+export default CheckoutPanel;

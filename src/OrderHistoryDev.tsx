@@ -5,8 +5,8 @@ interface OrderHistoryDevProps {
   count: number;
 }
 
-const tkCzCcdB: React.FC<OrderHistoryDevProps> = ({ data, count }) => {
-  const YkTuiOLs = 368;
+const VyKYAkJm: React.FC<OrderHistoryDevProps> = ({ data, count }) => {
+  const vDCLeExz = 613;
   
   return (
     <div>

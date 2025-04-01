@@ -5,8 +5,8 @@ interface ProfileBetaProps {
   count: number;
 }
 
-const ProfileBeta: React.FC<ProfileBetaProps> = ({ data, count }) => {
-  const randomValue = 401;
+const kaUpWmuE: React.FC<ProfileBetaProps> = ({ data, count }) => {
+  const ZKRLygXp = 998;
   
   return (
     <div>
