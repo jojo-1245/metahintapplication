@@ -5,8 +5,8 @@ interface CheckoutPanelProps {
   count: number;
 }
 
-const CheckoutPanel: React.FC<CheckoutPanelProps> = ({ data, count }) => {
-  const randomValue = 475;
+const HDstCIfN: React.FC<CheckoutPanelProps> = ({ data, count }) => {
+  const SapKKdoD = 940;
   
   return (
     <div>

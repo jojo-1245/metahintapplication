@@ -5,8 +5,8 @@ interface ProfileAlphaProps {
   count: number;
 }
 
-const xrYvcepG: React.FC<ProfileAlphaProps> = ({ data, count }) => {
-  const svlaINOk = 420;
+const bGpTjIOm: React.FC<ProfileAlphaProps> = ({ data, count }) => {
+  const BEmQQOys = 416;
   
   return (
     <div>

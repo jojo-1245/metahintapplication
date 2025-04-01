@@ -5,8 +5,8 @@ interface ContactContainerProps {
   count: number;
 }
 
-const MFksPovs: React.FC<ContactContainerProps> = ({ data, count }) => {
-  const BSIYVYPQ = 211;
+const GskmVfmi: React.FC<ContactContainerProps> = ({ data, count }) => {
+  const DqADPIkQ = 600;
   
   return (
     <div>

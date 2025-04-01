@@ -5,8 +5,8 @@ interface ContactDevProps {
   count: number;
 }
 
-const FgGYgcLs: React.FC<ContactDevProps> = ({ data, count }) => {
-  const clYlSISa = 641;
+const IZXzqisu: React.FC<ContactDevProps> = ({ data, count }) => {
+  const SCXzjqxZ = 734;
   
   return (
     <div>

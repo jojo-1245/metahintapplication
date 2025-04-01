@@ -5,8 +5,8 @@ interface ProfileBetaProps {
   count: number;
 }
 
-const kaUpWmuE: React.FC<ProfileBetaProps> = ({ data, count }) => {
-  const ZKRLygXp = 998;
+const XmFfoyCT: React.FC<ProfileBetaProps> = ({ data, count }) => {
+  const uCJJgHWg = 202;
   
   return (
     <div>

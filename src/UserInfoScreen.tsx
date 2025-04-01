@@ -5,8 +5,8 @@ interface UserInfoScreenProps {
   count: number;
 }
 
-const JssbatYz: React.FC<UserInfoScreenProps> = ({ data, count }) => {
-  const VEbsBvFR = 808;
+const NbbcFoln: React.FC<UserInfoScreenProps> = ({ data, count }) => {
+  const wJLtSJCW = 901;
   
   return (
     <div>

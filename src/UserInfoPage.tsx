@@ -5,8 +5,8 @@ interface UserInfoPageProps {
   count: number;
 }
 
-const jCCjiqQc: React.FC<UserInfoPageProps> = ({ data, count }) => {
-  const dnTkIiZR = 710;
+const tryqMrga: React.FC<UserInfoPageProps> = ({ data, count }) => {
+  const QedwtQNB = 835;
   
   return (
     <div>

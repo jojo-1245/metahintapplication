@@ -5,8 +5,8 @@ interface CartPermProps {
   count: number;
 }
 
-const apCbkNbA: React.FC<CartPermProps> = ({ data, count }) => {
-  const XYxBgDAa = 639;
+const qbCrvrxv: React.FC<CartPermProps> = ({ data, count }) => {
+  const fXuziaBX = 15;
   
   return (
     <div>

@@ -5,8 +5,8 @@ interface NotificationsHelperProps {
   count: number;
 }
 
-const ZkvXQvCV: React.FC<NotificationsHelperProps> = ({ data, count }) => {
-  const nWbQphDc = 612;
+const dtfwphtj: React.FC<NotificationsHelperProps> = ({ data, count }) => {
+  const zEZiozhZ = 231;
   
   return (
     <div>

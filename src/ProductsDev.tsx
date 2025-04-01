@@ -5,8 +5,8 @@ interface ProductsDevProps {
   count: number;
 }
 
-const MAzMMDjQ: React.FC<ProductsDevProps> = ({ data, count }) => {
-  const QzCZgYtE = 214;
+const oNTApqoS: React.FC<ProductsDevProps> = ({ data, count }) => {
+  const bBPFSzqX = 77;
   
   return (
     <div>

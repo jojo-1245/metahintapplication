@@ -5,8 +5,8 @@ interface TermsOfServiceContextProps {
   count: number;
 }
 
-const ShZVkQow: React.FC<TermsOfServiceContextProps> = ({ data, count }) => {
-  const dzbJihbG = 502;
+const BCbcOjHO: React.FC<TermsOfServiceContextProps> = ({ data, count }) => {
+  const beDPYUag = 929;
   
   return (
     <div>
