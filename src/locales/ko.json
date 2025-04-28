@@ -1,0 +1,266 @@
+{
+  "signin": {
+    "title": "로그인",
+    "subtitle": "이메일 주소와 비밀번호를 입력하세요",
+    "form": {
+      "email": "이메일 주소",
+      "password": "비밀번호"
+    },
+    "forgot": "비밀번호를 잊으셨나요?",
+    "login": "로그인",
+    "donthvacc": "계정이 없으신가요?",
+    "createacc": "계정 만들기",
+    "alert": {
+      "empty": {
+        "title": "입력 오류",
+        "desc": "이메일과 비밀번호를 입력해주세요."
+      },
+      "invalid": {
+        "title": "유효하지 않은 입력",
+        "desc": "이메일과 비밀번호를 다시 확인해주세요."
+      },
+      "success": {
+        "title": "로그인 성공",
+        "desc": "성공적으로 로그인되었습니다."
+      },
+      "failed": {
+        "title": "로그인 실패",
+        "desc": "잘못된 자격 증명입니다."
+      },
+      "unexpected": {
+        "title": "오류 발생",
+        "desc": "서버에서 알 수 없는 응답을 받았습니다."
+      },
+      "network": {
+        "title": "네트워크 오류",
+        "desc": "서버에 연결할 수 없습니다."
+      }
+    }
+  },
+  "signup": {
+    "title": "회원가입",
+    "subtitle": "계정을 만드는 데 1분도 걸리지 않아요",
+    "form": {
+      "name": "이름",
+      "phone": "전화번호",
+      "email": "이메일 주소",
+      "password": "비밀번호"
+    },
+    "terms": {
+      "checkbox": "MetaHint의",
+      "tos": "서비스 이용약관",
+      "and": "및",
+      "pp": "개인정보 보호정책에 동의합니다"
+    },
+    "button": "계정 만들기",
+    "footer": {
+      "text": "이미 계정이 있으신가요?",
+      "link": "로그인"
+    },
+    "alert": {
+      "empty": {
+        "title": "입력 누락",
+        "desc": "모든 항목을 입력해주세요."
+      },
+      "invalid": {
+        "title": "유효하지 않은 입력",
+        "desc": "모든 입력이 유효한지 확인하고 동의란을 체크해주세요."
+      },
+      "verifyFailed": {
+        "title": "인증 실패",
+        "desc": "알 수 없는 오류가 발생했습니다."
+      },
+      "network": {
+        "title": "네트워크 오류",
+        "desc": "서버에 연결할 수 없습니다."
+      }
+    }
+  },
+  "verifyEmail": {
+    "title": "이메일 인증",
+    "subtitle": "이메일로 발송된 코드를 입력해주세요",
+    "button": "인증하기",
+    "toast": {
+      "incomplete": {
+        "title": "OTP 미입력",
+        "desc": "인증 코드를 모두 입력해주세요."
+      },
+      "verifyFailed": {
+        "title": "인증 실패",
+        "desc": "코드가 잘못되었습니다."
+      },
+      "registerFailed": {
+        "title": "등록 실패",
+        "desc": "오류가 발생했습니다."
+      },
+      "network": {
+        "title": "네트워크 오류",
+        "desc": "인증 또는 등록 중 연결 실패."
+      },
+      "resendSuccess": {
+        "title": "코드 재전송됨",
+        "desc": "새 인증 코드가 발송되었습니다."
+      },
+      "resendFailed": {
+        "title": "재전송 실패",
+        "desc": "알 수 없는 오류가 발생했습니다."
+      },
+      "resendNetwork": {
+        "title": "네트워크 오류",
+        "desc": "인증 코드를 재전송할 수 없습니다."
+      }
+    }
+  },
+  "signUpSuccess": {
+    "title": "인증 완료",
+    "subtitle": "성공적으로 인증되었으며,\n이제 암호화폐에 투자하실 수 있습니다.",
+    "button": "계속"
+  },
+  "home": {
+    "logoutTitle": "로그아웃 확인",
+    "logoutMessage": "정말 로그아웃하시겠습니까?",
+    "logoutCancel": "취소",
+    "logoutConfirm": "로그아웃",
+
+    "copySuccessTitle": "주소 복사됨!",
+    "copySuccessText": "지갑 주소가 클립보드에 복사되었습니다.",
+
+    "tokenExpiredTitle": "토큰이 유효하지 않거나 만료되었습니다.",
+    "tokenExpiredText": "3초 후 자동으로 로그아웃됩니다.",
+
+    "fetchErrorTitle": "지갑 데이터를 가져오는 데 실패했습니다.",
+
+    "cardLabel": "내 지갑",
+    "polygonScan": "PolygonScan",
+    "receive": "받기",
+    "send": "암호화폐 보내기",
+
+    "walletTitle": "내 지갑",
+    "loadingAssets": "자산을 불러오는 중..."
+  },
+  "detailToken": {
+    "logoutConfirmationTitle": "로그아웃 확인",
+    "logoutConfirmationMessage": "정말 로그아웃하시겠습니까?",
+    "cancel": "취소",
+    "logout": "로그아웃",
+    "addressCopied": "주소 복사됨!",
+    "addressCopiedMessage": "지갑 주소가 복사되었습니다.",
+    "noTokenFound": "토큰을 찾을 수 없습니다",
+    "pleaseLoginAgain": "다시 로그인해주세요.",
+    "failedToFetch": "지갑 데이터를 가져오는 데 실패했습니다.",
+    "unknownError": "알 수 없는 오류",
+    "myBalance": "내 잔액",
+    "polygonScan": "PolygonScan",
+    "receive": "받기",
+    "sendCrypto": "암호화폐 보내기",
+    "history": "거래 내역",
+    "loadingAssets": "자산을 불러오는 중...",
+    "noHistory": "내역 없음"
+  },
+  "receiveScreen": {
+    "screenTitle": "지갑 주소 공유",
+    "walletAddress": "지갑 주소",
+    "copy": "복사",
+    "copied": "클립보드에 복사됨",
+    "shareTitle": "내 지갑 QR 코드",
+    "shareMessage": "내 지갑 주소입니다:\n{{address}}",
+    "shareSuccess": "주소가 성공적으로 공유되었습니다!",
+    "shareAddress": "코드 공유하기"
+  },
+  "sendingScreen": {
+    "screenTitle": "전송 중",
+    "receiverLabel": "수신자 주소",
+    "errorTitle": "오류",
+    "errorEmptyAddress": "수신자 주소를 입력해주세요",
+    "errorInvalidAddress": "잘못된 주소입니다",
+    "errorEmptyAmount": "금액을 입력해주세요",
+    "errorInvalidAmount": "잘못된 금액입니다",
+    "next": "다음",
+    "cancel": "취소",
+    "confirmTitle": "전송 확인",
+    "from": "보낸 사람",
+    "to": "받는 사람",
+    "gasPrice": "가스 가격",
+    "networkFee": "네트워크 수수료",
+    "speed": "속도",
+    "estimationRefresh": "{{sec}}초 후 새로고침",
+    "inProgress": "처리 중...",
+    "confirm": "확인",
+    "listPage": "목록 페이지",
+    "errorMissingTitle": "입력 누락",
+    "errorMissingMessage": "모든 필드를 입력해주세요",
+    "successTitle": "전송 성공",
+    "successMessage": "거래가 성공적으로 전송되었습니다!",
+    "failedTitle": "전송 실패",
+    "networkErrorTitle": "네트워크 오류",
+    "completedTitle": "전송 완료",
+    "amount": "금액",
+    "txHash": "거래 해시",
+    "completed": "완료됨",
+    "close": "닫기",
+    "failedFetchBalance": "잔액을 가져오지 못했습니다",
+    "amount_exceeds": "금액이 사용 가능한 잔액을 초과했습니다",
+    "transferLimit": "송금 한도",
+    "amount_exceeds_limit": "송금 금액이 한도를 초과했습니다. 한도: {{limit}} {{symbol}}",
+    "amount_exceeds_limit2": "송금 금액이 한도를 초과했습니다.",
+    "failedFetchLimit": "송금 한도 데이터를 가져오지 못했습니다.",
+    "noTransferLimit": "송금 한도가 적용되지 않습니다"
+  },
+  "scanScreen": {
+    "cameraPermissionRequired": "카메라 권한 필요",
+    "permissionMessage": "바코드를 스캔하려면 카메라 권한이 필요합니다.",
+    "deviceUnavailable": "카메라를 사용할 수 없습니다",
+    "back": "뒤로가기",
+    "scanInstruction": "카메라를 바코드 또는 QR코드에 맞춰주세요",
+    "scanSuccessTitle": "스캔 성공",
+    "scanSuccessMessage": "결과: {{code}}",
+    "ok": "확인"
+  },
+  "transactionDetailScreen": {
+    "title": "거래 내역",
+    "loading": "불러오는 중...",
+    "notFound": "거래를 찾을 수 없습니다",
+    "from": "보낸 사람",
+    "to": "받는 사람",
+    "time": "시간",
+    "txHash": "거래 해시",
+    "transactionDetails": "거래 상세",
+    "nonce": "논스",
+    "gasPrice": "가스 가격",
+    "usedGas": "사용된 가스",
+    "maxGas": "최대 가스",
+    "totalSpent": "총 사용량",
+    "blockHeight": "블록 높이",
+    "failedFetchTitle": "거래를 불러오는 데 실패했습니다",
+    "unknownError": "알 수 없는 오류"
+  },
+  "logout": {
+    "successTitle": "로그아웃됨",
+    "successText": "성공적으로 로그아웃되었습니다.",
+    "errorTitle": "로그아웃 실패",
+    "errorText": "문제가 발생했습니다."
+  },
+  "customField": {
+    "copied": "클립보드에 복사되었습니다"
+  },
+  "customInput": {
+    "name": "이름은 문자만 입력할 수 있습니다",
+    "email": "올바른 이메일을 입력해주세요",
+    "phone": "숫자만 입력할 수 있습니다",
+    "password": "비밀번호는 8자 이상, 대문자, 숫자 및 특수문자를 포함해야 합니다",
+    "contract": "잘못된 컨트랙트 주소입니다"
+  },
+  "customInputConfirm": {
+    "name": "이름은 문자만 입력할 수 있습니다",
+    "number": "숫자만 입력할 수 있습니다",
+    "contract": "잘못된 컨트랙트 주소입니다"
+  },
+  "otp": {
+    "resend": "인증 코드 다시 보내기"
+  },
+  "updateModal": {
+    "title": "업데이트 필요",
+    "desc": "새 버전이 사용 가능합니다. 계속하려면 업데이트해 주세요.",
+    "button": "지금 업데이트"
+  }
+}
