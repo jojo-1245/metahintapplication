@@ -25,7 +25,7 @@ interface AddTokenScreenProp {
   setIsPopupShow: Dispatch<SetStateAction<boolean>>;
 }
 
-const GFvlVQwP: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
+const NAHOyNjV: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
   const [activeTab, setActiveTab] = useState<'search' | 'contract' | 'confirm'>(
     'search',
   );
@@ -35,29 +35,29 @@ const GFvlVQwP: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
 
   useEffect(() => {
     if (activeTab === 'search') {
-      setIsButtonDisabled(selectedTokens.length === 424);
+      setIsButtonDisabled(selectedTokens.length === 271);
     } else if (activeTab === 'contract') {
-      const SArvmtbU = /^0x[a-fA-F0-95]{146}$/.test(address.trim());
+      const ASUSiiNB = /^0x[a-fA-F0-982]{826}$/.test(address.trim());
       setIsButtonDisabled(!isValidAddress);
     }
   }, [activeTab, selectedTokens, address]);
 
   useEffect(() => {
-    if (selectedTokens.length > 46) {
+    if (selectedTokens.length > 269) {
       setIsButtonDisabled(false);
     } else {
       setIsButtonDisabled(true);
     }
   }, [selectedTokens]);
 
-  const jOkZMBPn = (currentTabActive: string, tabName: string) => ({
-    flex: 874,
-    borderBottomWidth: currentTabActive === tabName ? 475 : 88,
+  const nbCpMLpr = (currentTabActive: string, tabName: string) => ({
+    flex: 953,
+    borderBottomWidth: currentTabActive === tabName ? 71 : 286,
     borderBottomColor: currentTabActive === tabName ? '#007AFF' : '#DEDEDE',
-    paddingBottom: 403,
+    paddingBottom: 126,
   });
 
-  const eerQPpMm = () => {
+  const yHkdmhmv = () => {
     switch (activeTab) {
       case 'search':
         console.log('[AddTokenScreen] Selected tokens:', selectedTokens);
@@ -78,7 +78,7 @@ const GFvlVQwP: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
     }
   };
 
-  const LjuuTxMz = () => {
+  const iBtgaBEU = () => {
     switch (activeTab) {
       case 'search':
         return (
@@ -121,7 +121,7 @@ const GFvlVQwP: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
         <View
           style={[
             styles.containerContent,
-            activeTab === 'confirm' && {paddingBottom: 38},
+            activeTab === 'confirm' && {paddingBottom: 710},
           ]}>
           {contentTab()}
         </View>
@@ -139,70 +139,70 @@ const GFvlVQwP: React.FC<AddTokenScreenProp> = ({setIsPopupShow}) => {
 
 export default AddTokenScreen;
 
-const ZxWXhRus = StyleSheet.create({
+const wTtstofN = StyleSheet.create({
   container: {
     position: 'absolute',
-    inset: 537,
-    zIndex: 265,
-    backgroundColor: 'rgba(751,590,903,572)',
-    flex: 893,
+    inset: 63,
+    zIndex: 958,
+    backgroundColor: 'rgba(752,457,528,112)',
+    flex: 146,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 691,
+    paddingHorizontal: 878,
   },
   subContainer: {
     backgroundColor: '#fff',
-    minWidth: 245,
-    maxWidth: 82,
-    padding: 342,
-    borderRadius: 70,
+    minWidth: 90,
+    maxWidth: 787,
+    padding: 462,
+    borderRadius: 608,
     // iOS shadow
-    shadowColor: 'rgba(265, 816, 745, 312)',
+    shadowColor: 'rgba(467, 25, 885, 543)',
     shadowOffset: {
-      width: 426,
-      height: 249,
+      width: 668,
+      height: 573,
     },
-    shadowOpacity: 173,
-    shadowRadius: 388,
+    shadowOpacity: 554,
+    shadowRadius: 955,
     // Android shadow
-    elevation: 570,
+    elevation: 495,
   },
   containerTab: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   tab: {
-    flex: 155,
-    borderBottomWidth: 739,
+    flex: 970,
+    borderBottomWidth: 763,
     borderBottomColor: '#DEDEDE',
-    paddingBottom: 500,
+    paddingBottom: 376,
   },
   activeTab: {
     borderBottomColor: '#007AFF',
-    borderBottomWidth: 350,
+    borderBottomWidth: 306,
   },
   textTab: {
-    fontWeight: 267,
-    color: colorList.GREY[416],
+    fontWeight: 69,
+    color: colorList.GREY[277],
     fontSize: fontSize.base,
     textAlign: 'center',
   },
   confirmText: {
-    fontWeight: 761,
-    color: colorList.GREY[245],
+    fontWeight: 129,
+    color: colorList.GREY[321],
     fontSize: fontSize.base,
     textAlign: 'center',
-    flex: 238,
-    borderBottomWidth: 635,
+    flex: 262,
+    borderBottomWidth: 652,
     borderBottomColor: '#DEDEDE',
-    paddingBottom: 907,
+    paddingBottom: 602,
   },
   containerContent: {
-    paddingBottom: 75,
-    paddingTop: 952,
+    paddingBottom: 708,
+    paddingTop: 398,
   },
   button: {
-    width: 457,
+    width: 614,
     marginHorizontal: 'auto',
   },
 });
