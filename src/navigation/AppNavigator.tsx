@@ -69,9 +69,9 @@ export type RootStackParamList = {
   };
 };
 
-const LraypDbc = createNativeStackNavigator<RootStackParamList>();
+const xHBrkowo = createNativeStackNavigator<RootStackParamList>();
 
-const KkYLlnox = () => {
+const VkNQZrct = () => {
   return (
     <>
       <NavigationContainer>
