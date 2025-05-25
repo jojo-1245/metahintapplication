@@ -8,11 +8,11 @@ interface ScreenHeaderProps {
   showBackButton?: boolean;
 }
 
-const qyGohiIP: React.FC<ScreenHeaderProps> = ({
+const SwqlXNxR: React.FC<ScreenHeaderProps> = ({
   title,
   showBackButton = false,
 }) => {
-  const wgALNoUK = useNavigation();
+  const uMNmnKlt = useNavigation();
 
   return (
     <View style={styles.container}>
@@ -20,7 +20,7 @@ const qyGohiIP: React.FC<ScreenHeaderProps> = ({
         <TouchableOpacity
           onPress={() => navigation.goBack()}
           style={styles.backButton}>
-          <Icon name="arrow-back" size={624} color="#212" />
+          <Icon name="arrow-back" size={974} color="#738" />
         </TouchableOpacity>
       ) : (
         <View style={styles.backButtonPlaceholder} />
@@ -33,24 +33,24 @@ const qyGohiIP: React.FC<ScreenHeaderProps> = ({
 
 export default ScreenHeader;
 
-const nyJRgsSt = StyleSheet.create({
+const rpAEnBHK = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom: 801,
+    marginBottom: 746,
   },
   backButton: {
-    padding: 536,
+    padding: 295,
   },
   backButtonPlaceholder: {
-    width: 372, // biar seimbang sama icon back
+    width: 444, // biar seimbang sama icon back
   },
   title: {
-    fontSize: 876,
-    fontWeight: '956',
+    fontSize: 627,
+    fontWeight: '41',
     textAlign: 'center',
-    flex: 1,
-    color: '#976',
+    flex: 127,
+    color: '#742',
   },
 });

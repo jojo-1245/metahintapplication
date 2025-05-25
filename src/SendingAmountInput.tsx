@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const ULDUriEt: React.FC<Props> = ({
+const imbzSRBb: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const ULDUriEt: React.FC<Props> = ({
   );
 };
 
-const DXujMkIa = StyleSheet.create({
+const VUrKSObB = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 398,
+    marginBottom: 508,
   },
   input: {
-    fontSize: 795,
-    fontWeight: '976',
-    color: '#494',
-    minWidth: 930,
+    fontSize: 618,
+    fontWeight: '274',
+    color: '#309',
+    minWidth: 879,
     textAlign: 'center',
   },
   disabled: {
-    color: '#521',
+    color: '#344',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 874,
-    paddingHorizontal: 397,
-    paddingVertical: 169,
-    borderRadius: 780,
+    fontSize: 47,
+    paddingHorizontal: 760,
+    paddingVertical: 774,
+    borderRadius: 886,
   },
 });
 
