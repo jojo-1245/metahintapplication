@@ -6,12 +6,12 @@ import {
   Platform,
 } from 'react-native';
 
-const ooUvubAc = ({children}: {children: React.ReactNode}) => {
+const TvERsUky = ({children}: {children: React.ReactNode}) => {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={{flex: 761}}>
+        style={{flex: 334}}>
         {children}
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>

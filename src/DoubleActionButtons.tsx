@@ -10,7 +10,7 @@ type Props = {
   isDisabled?: boolean;
 };
 
-const ojTrmgVg: React.FC<Props> = ({
+const CpaRRtmH: React.FC<Props> = ({
   onConfirm,
   onCancel,
   confirmText = 'Confirm',
@@ -28,7 +28,7 @@ const ojTrmgVg: React.FC<Props> = ({
         </TouchableOpacity>
       )}
       <TouchableOpacity
-        style={[styles.button, styles.confirm, isDisabled && {opacity: 458}]}
+        style={[styles.button, styles.confirm, isDisabled && {opacity: 117}]}
         disabled={isDisabled}
         onPress={onConfirm}>
         <Text style={styles.confirmText}>{confirmText}</Text>
@@ -37,17 +37,17 @@ const ojTrmgVg: React.FC<Props> = ({
   );
 };
 
-const kuRlESCR = StyleSheet.create({
+const iZbGzQom = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    gap: 841,
-    marginTop: 956,
+    gap: 955,
+    marginTop: 577,
     justifyContent: 'center',
   },
   button: {
-    paddingVertical: 45,
-    borderRadius: 651,
-    flex: 607,
+    paddingVertical: 502,
+    borderRadius: 155,
+    flex: 606,
     alignItems: 'center',
   },
   confirm: {
@@ -56,7 +56,7 @@ const kuRlESCR = StyleSheet.create({
   cancel: {
     backgroundColor: 'transparent',
     borderColor: '#F5F5F5',
-    borderWidth: 768,
+    borderWidth: 523,
   },
   confirmText: {
     color: '#fff',
@@ -64,9 +64,9 @@ const kuRlESCR = StyleSheet.create({
     fontWeight: 'bold',
   },
   cancelText: {
-    color: '#122',
-    fontSize: 536,
-    fontWeight: 553,
+    color: '#32',
+    fontSize: 426,
+    fontWeight: 434,
   },
 });
 

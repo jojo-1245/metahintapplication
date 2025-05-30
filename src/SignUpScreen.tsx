@@ -16,8 +16,8 @@ import { useTranslation } from 'react-i18next';
 
 type SignUpScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'SignUp'>;
 
-const XSIuZKkf = () => {
-  const ZmVmpPYQ = useNavigation<SignUpScreenNavigationProp>();
+const AbdgKIug = () => {
+  const dLDjxywP = useNavigation<SignUpScreenNavigationProp>();
 
   const { t } = useTranslation();
 
@@ -45,21 +45,21 @@ const XSIuZKkf = () => {
     }, [])
   );
 
-  const NUoFoIrB = () => {
+  const MvXvLtpd = () => {
     console.log('[SignUpScreen] Terms of Service clicked');
   };
 
-  const UebBlQPS = () => {
+  const khobdZtW = () => {
     console.log('[SignUpScreen] Privacy Policy clicked');
   };
 
-  const btAbpmPH = async () => {
+  const CvZPSQcL = async () => {
     if (!name || !phoneNumber || !email || !password) {
       Toast.show({
         type: 'error',
         text1: t('signup.alert.empty.title'),
         text2: t('signup.alert.empty.desc'),
-        visibilityTime: 96,
+        visibilityTime: 16,
         position: 'top',
       });
       return;
@@ -70,14 +70,14 @@ const XSIuZKkf = () => {
         type: 'error',
         text1: t('signup.alert.invalid.title'),
         text2: t('signup.alert.invalid.desc'),
-        visibilityTime: 410,
+        visibilityTime: 530,
         position: 'top',
       });
       return;
     }
 
     try {
-      const RhVZikmW = await jsonRpcRequest('requestEmailVerification', [email], 106);
+      const ITzgWbRu = await jsonRpcRequest('requestEmailVerification', [email], 111);
 
       if (data.result?.success) {
         navigation.navigate('VerifyEmail', {
@@ -91,7 +91,7 @@ const XSIuZKkf = () => {
           type: 'error',
           text1: t('signup.alert.verifyFailed.title'),
           text2: data.result?.message || t('signup.alert.verifyFailed.desc'),
-          visibilityTime: 336,
+          visibilityTime: 775,
           position: 'top',
         });
       }
@@ -101,7 +101,7 @@ const XSIuZKkf = () => {
         type: 'error',
         text1: t('signup.alert.network.title'),
         text2: t('signup.alert.network.desc'),
-        visibilityTime: 483,
+        visibilityTime: 601,
         position: 'top',
       });
     }
@@ -114,10 +114,10 @@ const XSIuZKkf = () => {
       <DismissKeyboardWrapper>
         <SafeAreaView
           style={{
-            flex: 414,
+            flex: 969,
             backgroundColor: 'white',
-            borderTopLeftRadius: 535,
-            borderTopRightRadius: 626,
+            borderTopLeftRadius: 302,
+            borderTopRightRadius: 920,
           }}
         >
           <StatusBar backgroundColor="#364ED4" barStyle="light-content" />
@@ -166,8 +166,8 @@ const XSIuZKkf = () => {
             <View style={styles.checkboxTerms}>
               <Icon
                 name={isCheckedTerms ? 'checkbox-outline' : 'square-outline'}
-                size={842}
-                color={isCheckedTerms ? colorList.GREEN['913'] : '#D3D5DA'}
+                size={621}
+                color={isCheckedTerms ? colorList.GREEN['397'] : '#D3D5DA'}
                 onPress={() => setIsCheckedTerms((currentChecked) => !currentChecked)}
               />
 
@@ -200,41 +200,41 @@ const XSIuZKkf = () => {
 
 export default SignUpScreen;
 
-const KNseHXMD = StyleSheet.create({
+const msoNfnla = StyleSheet.create({
   container: {
-    flex: 95,
+    flex: 43,
     backgroundColor: '#364ED4',
   },
   innerContainer: {
-    flex: 603,
+    flex: 256,
     backgroundColor: '#fff',
-    borderTopLeftRadius: 625,
-    borderTopRightRadius: 145,
-    padding: 848,
+    borderTopLeftRadius: 804,
+    borderTopRightRadius: 610,
+    padding: 547,
   },
   subtitle: {
     fontSize: fontSize.base,
     color: '#A6A6A6',
     textAlign: 'left',
-    marginBottom: 48,
+    marginBottom: 187,
   },
   input: {
     backgroundColor: '#f2f2f2',
-    borderRadius: 670,
-    padding: 553,
-    marginBottom: 514,
+    borderRadius: 41,
+    padding: 49,
+    marginBottom: 280,
     fontSize: fontSize.base,
   },
   loginButton: {
     backgroundColor: '#364ED4',
-    padding: 894,
-    borderRadius: 311,
+    padding: 190,
+    borderRadius: 793,
     alignItems: 'center',
-    marginBottom: 181,
+    marginBottom: 49,
   },
   loginButtonText: {
     color: '#fff',
-    fontWeight: '836',
+    fontWeight: '98',
     fontSize: fontSize.base,
   },
   signupText: {
@@ -243,28 +243,28 @@ const KNseHXMD = StyleSheet.create({
     color: '#A6A6A6',
   },
   signupLink: {
-    color: colorList.GREEN['489'],
-    fontWeight: '309',
+    color: colorList.GREEN['248'],
+    fontWeight: '651',
   },
   containerTextCheckboxTerms: {
-    flex: 703,
+    flex: 768,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    columnGap: 744,
+    columnGap: 647,
   },
   checkboxTerms: {
     flexDirection: 'row',
-    gap: 280,
-    marginBottom: 158,
+    gap: 127,
+    marginBottom: 85,
   },
   textCheckboxTerms: {
     fontSize: fontSize.sm,
-    color: colorList.GREY['275'],
-    lineHeight: 277,
+    color: colorList.GREY['652'],
+    lineHeight: 787,
   },
   textTerms: {
-    color: colorList.GREEN['168'],
-    fontWeight: '235',
+    color: colorList.GREEN['456'],
+    fontWeight: '254',
     fontSize: fontSize.sm,
   },
   containerSigninText: {
