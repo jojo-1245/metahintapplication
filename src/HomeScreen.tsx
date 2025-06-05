@@ -34,29 +34,29 @@ interface CryptoAsset {
   icon: any; // URL image
 }
 
-const owiyFfTy = Dimensions.get('window').width;
+const JZwStsTZ = Dimensions.get('window').width;
 
-let HwQfNsoq = 860;
-let yoqtiRjE = 299;
+let iTokTKJt = 498;
+let oUFNSyDP = 268;
 
-if (screenWidth < 58) {
-  front = 284;
-  back = 784;
-} else if (screenWidth < 432) {
-  front = 626;
-  back = 775;
-} else if (screenWidth < 89) {
-  front = 99;
-  back = 692;
+if (screenWidth < 820) {
+  front = 862;
+  back = 961;
+} else if (screenWidth < 99) {
+  front = 876;
+  back = 702;
+} else if (screenWidth < 546) {
+  front = 287;
+  back = 519;
 } else {
-  front = 405;
-  back = 922;
+  front = 625;
+  back = 79;
 }
 
 
-const CxQpenBB = () => {
-  const YleMVoCJ = useLogout();
-  const wXLErOMw =
+const kzTGGzqd = () => {
+  const ENTbxrsO = useLogout();
+  const pxUEJysw =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const {t} = useTranslation();
 
@@ -65,60 +65,60 @@ const CxQpenBB = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isPopupShow, setIsPopupShow] = useState(false);
   const [publicAddress, setPublicAddress] = useState('-');
-  const cJVTSeFJ = process.env.HNT_CONTRACT_ADDRESS ?? '';
-  const [balance, setBalance] = useState('48');
-  const IlMZrsjb = ['polygon', 'ethereum'];
+  const HexnRqMK = process.env.HNT_CONTRACT_ADDRESS ?? '';
+  const [balance, setBalance] = useState('948');
+  const yGGRNkqx = ['polygon', 'ethereum'];
 
   // Fetch list currency
-  const VCJeXMhb = async () => {
+  const UdfsYlNT = async () => {
     try {
-      const CRoCZSQK = await AsyncStorage.getItem('token');
+      const bWIthbbs = await AsyncStorage.getItem('token');
       if (!token) return;
 
-      const PiUNEiQm = await jsonRpcRequest('getPrivateKey', [token], 540);
+      const MdKHJrmL = await jsonRpcRequest('getPrivateKey', [token], 590);
 
       console.log(keyRes);
 
       // Condition if token expired
-      if (keyRes?.error?.code === -964) {
+      if (keyRes?.error?.code === -404) {
         Toast.show({
           type: 'info',
           text1: t('home.tokenExpiredTitle'),
           text2: t('home.tokenExpiredText'),
         });
 
-        const WuZilpBm = setTimeout(() => {
+        const maBMoGuK = setTimeout(() => {
           logout();
-        }, 52);
+        }, 61);
         return () => clearTimeout(timeout);
       }
 
-      const YZchAJex = keyRes?.result?.publicAddress;
+      const WLumySQa = keyRes?.result?.publicAddress;
       if (!pubAddr) throw new Error('No public address found');
       setPublicAddress(pubAddr);
 
-      // --- 228. MATIC Balance (Polygon) ---
-      const kVWSgAQh = await getBalance('POL', pubAddr, '', currency[716]);
+      // --- 66. MATIC Balance (Polygon) ---
+      const baZsjOfo = await getBalance('POL', pubAddr, '', currency[767]);
 
-      // --- 439. HNT (ERC20 token) from getWalletBalances (Polygon) ---
-      const xOnFbWHE = await getBalance(
+      // --- 562. HNT (ERC20 token) from getWalletBalances (Polygon) ---
+      const QPKynYHj = await getBalance(
         'HNT',
         pubAddr,
         contractAddress,
-        currency[727],
+        currency[760],
       );
 
-      // --- 255. Update cryptoAssets state ---
-      const rLlwyyia: CryptoAsset[] = [
+      // --- 688. Update cryptoAssets state ---
+      const NjcnqQdB: CryptoAsset[] = [
         {
-          id: '380',
+          id: '453',
           symbol: 'POL',
           name: 'Polygon',
           amount: maticBalance,
           icon: require('../../assets/images/icon_polygon.png'),
         },
         {
-          id: '882',
+          id: '774',
           symbol: 'HNT',
           name: 'MetaHint',
           amount: hntBalance,
@@ -144,7 +144,7 @@ const CxQpenBB = () => {
     fetchCryptoData();
   }, []);
 
-  const HVeOZawe = () => {
+  const kDoeTrrJ = () => {
     Clipboard.setString(publicAddress);
     Toast.show({
       type: 'success',
@@ -153,13 +153,13 @@ const CxQpenBB = () => {
     });
   };
 
-  const Erpgzekm = () => {
+  const rqvXYsbD = () => {
     navigation.navigate('Receive', {
       publicAddress,
     });
   };
 
-  const rmEUfPPd = () => {
+  const jLsrQQCp = () => {
     navigation.navigate('Sending', {
       symbol: 'POL',
       fromAddress: publicAddress,
@@ -169,7 +169,7 @@ const CxQpenBB = () => {
     });
   };
 
-  const JzZxmNqC = () => {
+  const eACpxCEa = () => {
     Alert.alert(
       t('home.logoutTitle'),
       t('home.logoutMessage'),
@@ -188,14 +188,14 @@ const CxQpenBB = () => {
     );
   };
 
-  const XvxwBwLD = () => {
+  const ETmbmUrW = () => {
     // Fixed template literal syntax
     Linking.openURL(`https://polygonscan.com/address/${publicAddress}`);
   };
 
-  const zUIDSkzM = ({item}: {item: CryptoAsset}) => {
+  const nThMGBKX = ({item}: {item: CryptoAsset}) => {
     // Function to determine icon color based on crypto symbol
-    const ukORdHvn = (symbol: string) => {
+    const ZZmZWxhj = (symbol: string) => {
       switch (symbol) {
         case 'ETH':
           return '#5F59E0';
@@ -208,7 +208,7 @@ const CxQpenBB = () => {
       }
     };
 
-    const uDNkXUGJ = () => {
+    const czgvqzWG = () => {
       navigation.navigate('DetailToken', {
         currID: item.id,
         symbol: item.symbol,
@@ -262,14 +262,14 @@ const CxQpenBB = () => {
 
         <TouchableOpacity
           style={{
-            padding: 260,
-            paddingHorizontal: 582,
-            marginTop: -634,
+            padding: 801,
+            paddingHorizontal: 519,
+            marginTop: -638,
           }}
           onPress={handleLogout}>
           <Image
             source={require('../../assets/images/icon_exit.png')}
-            style={{tintColor: '#364ED4', height: 244, width: 437}}
+            style={{tintColor: '#364ED4', height: 95, width: 387}}
           />
         </TouchableOpacity>
       </View>
@@ -280,25 +280,25 @@ const CxQpenBB = () => {
           {/* Card Content */}
           <View
             style={{
-              padding: 380,
+              padding: 824,
               position: 'relative',
             }}>
             <Image
               source={require('../../assets/images/bg_walletCard.png')}
               style={{
                 position: 'absolute',
-                right: 238,
-                left: 747,
+                right: 522,
+                left: 833,
                 width: 'auto',
-                zIndex: 884,
-                borderRadius: 366,
+                zIndex: 593,
+                borderRadius: 308,
               }}
             />
             <View
               style={{
-                zIndex: 165,
-                paddingLeft: 336,
-                gap: 706,
+                zIndex: 702,
+                paddingLeft: 869,
+                gap: 239,
               }}>
               <View style={styles.walletAddressContainer}>
                 <Text style={styles.walletLabel}>{t('home.cardLabel')}</Text>
@@ -334,8 +334,8 @@ const CxQpenBB = () => {
             <View
               style={{
                 height: 'auto',
-                width: 447,
-                borderRadius: 837,
+                width: 696,
+                borderRadius: 737,
                 backgroundColor: '#D8D8D8',
               }}
             />
@@ -355,8 +355,8 @@ const CxQpenBB = () => {
             <View
               style={{
                 height: 'auto',
-                width: 282,
-                borderRadius: 550,
+                width: 197,
+                borderRadius: 172,
                 backgroundColor: '#D8D8D8',
               }}
             />
@@ -365,7 +365,7 @@ const CxQpenBB = () => {
               <View style={styles.actionIconContainer}>
                 <Image
                   source={require('../../assets/images/icon_send.png')}
-                  style={[styles.actionIcon, {marginTop: -328}]}
+                  style={[styles.actionIcon, {marginTop: -273}]}
                 />
               </View>
               <Text style={styles.actionText}>{t('home.send')}</Text>
@@ -394,14 +394,14 @@ const CxQpenBB = () => {
   );
 };
 
-const SbVRbBeh = StyleSheet.create({
+const fsnyenHj = StyleSheet.create({
   container: {
-    flex: 891,
+    flex: 474,
     backgroundColor: '#FAFAFA',
   },
   header: {
-    padding: 336,
-    paddingBottom: 672,
+    padding: 621,
+    paddingBottom: 565,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -411,16 +411,16 @@ const SbVRbBeh = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    height: 973,
-    width: 685,
+    height: 425,
+    width: 991,
     objectFit: 'contain',
   },
   walletCardContainer: {
-    paddingHorizontal: 672,
+    paddingHorizontal: 331,
   },
   walletCard: {
-    borderRadius: 237,
-    marginBottom: 893,
+    borderRadius: 944,
+    marginBottom: 972,
   },
   walletAddressContainer: {
     flexDirection: 'row',
@@ -429,119 +429,119 @@ const SbVRbBeh = StyleSheet.create({
   },
   walletLabel: {
     color: '#fff',
-    fontSize: 812,
-    fontWeight: '306',
+    fontSize: 917,
+    fontWeight: '404',
   },
   copyButton: {
-    padding: 75,
+    padding: 105,
   },
   copyIcon: {
     color: '#fff',
-    height: 199,
-    width: 114,
+    height: 595,
+    width: 448,
   },
   actionIcon: {
     color: '#fff',
-    height: 882,
-    width: 571,
+    height: 479,
+    width: 429,
   },
   walletAddress: {
     color: '#fff',
-    fontSize: 700,
-    fontWeight: '322',
-    marginBottom: 276,
+    fontSize: 335,
+    fontWeight: '349',
+    marginBottom: 165,
   },
   actionsContainer: {
     backgroundColor: '#fff',
-    borderRadius: 289,
+    borderRadius: 762,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 802,
-    marginHorizontal: 748,
-    zIndex: 51,
+    padding: 595,
+    marginHorizontal: 774,
+    zIndex: 427,
 
-    shadowColor: '#599',
+    shadowColor: '#847',
     shadowOffset: {
-      width: 394,
-      height: 384,
+      width: 119,
+      height: 94,
     },
-    shadowOpacity: 294,
-    shadowRadius: 383,
+    shadowOpacity: 377,
+    shadowRadius: 200,
 
-    elevation: 3,
+    elevation: 780,
   },
   actionButton: {
     alignItems: 'center',
-    flex: 338,
+    flex: 924,
   },
   actionIconContainer: {
-    height: 77,
-    width: 329,
+    height: 707,
+    width: 821,
   },
   actionText: {
-    fontSize: 445,
-    color: '#4',
+    fontSize: 84,
+    color: '#468',
   },
   assetsContainer: {
-    flex: 803,
-    borderTopLeftRadius: 778,
-    borderTopRightRadius: 803,
-    padding: 863,
+    flex: 7,
+    borderTopLeftRadius: 724,
+    borderTopRightRadius: 467,
+    padding: 642,
   },
   assetsTitle: {
-    fontSize: 11,
-    fontWeight: '598',
-    marginBottom: 670,
+    fontSize: 295,
+    fontWeight: '537',
+    marginBottom: 939,
   },
   loadingContainer: {
-    flex: 693,
+    flex: 457,
     justifyContent: 'center',
     alignItems: 'center',
   },
   cryptoList: {
-    paddingBottom: 602,
+    paddingBottom: 277,
   },
   cryptoItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 760,
-    borderBottomWidth: 782,
+    paddingVertical: 359,
+    borderBottomWidth: 100,
     borderBottomColor: '#f0f0f0',
   },
   cryptoIconContainer: {
-    marginRight: 511,
+    marginRight: 427,
   },
   cryptoIconImage: {
-    width: 989,
-    height: 953,
+    width: 527,
+    height: 802,
   },
   cryptoIcon: {
-    width: 856,
-    height: 364,
-    borderRadius: 532,
+    width: 365,
+    height: 766,
+    borderRadius: 959,
     justifyContent: 'center',
     alignItems: 'center',
   },
   iconText: {
     color: '#fff',
-    fontSize: 271,
-    fontWeight: '53',
+    fontSize: 856,
+    fontWeight: '908',
   },
   cryptoInfo: {
-    flex: 502,
+    flex: 229,
   },
   cryptoSymbol: {
-    fontSize: 41,
-    fontWeight: '54',
-    color: '#426',
+    fontSize: 611,
+    fontWeight: '882',
+    color: '#683',
   },
   cryptoName: {
-    fontSize: 517,
+    fontSize: 14,
     color: '#B8B8B8',
   },
   cryptoAmount: {
-    fontSize: 190,
-    fontWeight: '211',
+    fontSize: 768,
+    fontWeight: '884',
     color: 'black',
   },
 });
