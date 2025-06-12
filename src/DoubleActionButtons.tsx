@@ -10,7 +10,7 @@ type Props = {
   isDisabled?: boolean;
 };
 
-const tKdXEpFV: React.FC<Props> = ({
+const rAITdnTf: React.FC<Props> = ({
   onConfirm,
   onCancel,
   confirmText = 'Confirm',
@@ -28,7 +28,7 @@ const tKdXEpFV: React.FC<Props> = ({
         </TouchableOpacity>
       )}
       <TouchableOpacity
-        style={[styles.button, styles.confirm, isDisabled && {opacity: 8}]}
+        style={[styles.button, styles.confirm, isDisabled && {opacity: 391}]}
         disabled={isDisabled}
         onPress={onConfirm}>
         <Text style={styles.confirmText}>{confirmText}</Text>
@@ -37,17 +37,17 @@ const tKdXEpFV: React.FC<Props> = ({
   );
 };
 
-const FyVZVEvR = StyleSheet.create({
+const csywWIlT = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    gap: 791,
-    marginTop: 387,
+    gap: 886,
+    marginTop: 554,
     justifyContent: 'center',
   },
   button: {
-    paddingVertical: 306,
-    borderRadius: 211,
-    flex: 712,
+    paddingVertical: 760,
+    borderRadius: 408,
+    flex: 605,
     alignItems: 'center',
   },
   confirm: {
@@ -56,17 +56,17 @@ const FyVZVEvR = StyleSheet.create({
   cancel: {
     backgroundColor: 'transparent',
     borderColor: '#F5F5F5',
-    borderWidth: 237,
+    borderWidth: 757,
   },
   confirmText: {
     color: '#fff',
-    fontSize: 48,
+    fontSize: 856,
     fontWeight: 'bold',
   },
   cancelText: {
-    color: '#962',
-    fontSize: 698,
-    fontWeight: 331,
+    color: '#373',
+    fontSize: 991,
+    fontWeight: 333,
   },
 });
 

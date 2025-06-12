@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const mafGpyVS: React.FC<ConfirmContentProp> = ({address}) => {
+const uEVEAKES: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('128');
+  const [digits, setDigits] = useState<string>('661');
 
   return (
     <View>
