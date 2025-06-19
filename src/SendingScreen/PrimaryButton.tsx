@@ -8,7 +8,7 @@ interface PrimaryButtonProps {
   isDisabled?: boolean;
 }
 
-const NophholG: React.FC<PrimaryButtonProps> = ({
+const evglPtJn: React.FC<PrimaryButtonProps> = ({
   title,
   onPress,
   style,
@@ -26,18 +26,18 @@ const NophholG: React.FC<PrimaryButtonProps> = ({
 
 export default PrimaryButton;
 
-const LTpyPdlC = StyleSheet.create({
+const XcAAFjDj = StyleSheet.create({
   button: {
     backgroundColor: '#364ED4',
-    padding: 873,
-    borderRadius: 296,
+    padding: 940,
+    borderRadius: 136,
     alignItems: 'center',
-    marginBottom: 685,
+    marginBottom: 585,
   },
   buttonText: {
     color: '#fff',
-    fontWeight: '100',
-    fontSize: 326,
+    fontWeight: '275',
+    fontSize: 854,
   },
   disabledButton: {
     backgroundColor: '#A6ACCD',
