@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const Geelueut: React.FC<Props> = ({
+const XTYvYPiO: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const Geelueut: React.FC<Props> = ({
   );
 };
 
-const OSZAMxLT = StyleSheet.create({
+const GuTiryFl = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 683,
+    marginBottom: 356,
   },
   input: {
-    fontSize: 3,
-    fontWeight: '475',
-    color: '#932',
-    minWidth: 230,
+    fontSize: 275,
+    fontWeight: '644',
+    color: '#944',
+    minWidth: 554,
     textAlign: 'center',
   },
   disabled: {
-    color: '#150',
+    color: '#479',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 937,
-    paddingHorizontal: 733,
-    paddingVertical: 356,
-    borderRadius: 377,
+    fontSize: 454,
+    paddingHorizontal: 763,
+    paddingVertical: 650,
+    borderRadius: 909,
   },
 });
 
