@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const XTYvYPiO: React.FC<Props> = ({
+const eOsTpfTr: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const XTYvYPiO: React.FC<Props> = ({
   );
 };
 
-const GuTiryFl = StyleSheet.create({
+const LptIsusl = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 356,
+    marginBottom: 768,
   },
   input: {
-    fontSize: 275,
-    fontWeight: '644',
-    color: '#944',
-    minWidth: 554,
+    fontSize: 893,
+    fontWeight: '111',
+    color: '#592',
+    minWidth: 68,
     textAlign: 'center',
   },
   disabled: {
-    color: '#479',
+    color: '#829',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 454,
-    paddingHorizontal: 763,
-    paddingVertical: 650,
-    borderRadius: 909,
+    fontSize: 90,
+    paddingHorizontal: 543,
+    paddingVertical: 167,
+    borderRadius: 376,
   },
 });
 
