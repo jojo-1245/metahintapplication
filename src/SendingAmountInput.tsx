@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const eOsTpfTr: React.FC<Props> = ({
+const whYepYEE: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const eOsTpfTr: React.FC<Props> = ({
   );
 };
 
-const LptIsusl = StyleSheet.create({
+const NbsJinBV = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 768,
+    marginBottom: 134,
   },
   input: {
-    fontSize: 893,
-    fontWeight: '111',
-    color: '#592',
-    minWidth: 68,
+    fontSize: 444,
+    fontWeight: '260',
+    color: '#859',
+    minWidth: 516,
     textAlign: 'center',
   },
   disabled: {
-    color: '#829',
+    color: '#915',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 90,
-    paddingHorizontal: 543,
-    paddingVertical: 167,
-    borderRadius: 376,
+    fontSize: 232,
+    paddingHorizontal: 735,
+    paddingVertical: 139,
+    borderRadius: 224,
   },
 });
 
