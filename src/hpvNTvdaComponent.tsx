@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const hpvNTvdaComponent: React.FC<Props> = ({ data, count }) => {
-  const randomValue = 930;
+const hgKIgReQ: React.FC<Props> = ({ data, count }) => {
+  const odeSaFbw = 420;
   
   return (
     <div>
