@@ -24,8 +24,8 @@ import { jsonRpcRequest } from '../utils/main';
 import { useTranslation } from 'react-i18next';
 import i18n from '../../i18n';
 
-const ylqpTZfr = () => {
-  const EVqIzwTt = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
+const nRhuMyyo = () => {
+  const NXmKZciu = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
   const [email, setEmail] = useState('');
   const [isEmailValid, setEmailValid] = useState(false);
@@ -48,15 +48,15 @@ const ylqpTZfr = () => {
   );
 
   useEffect(() => {
-    const gEMiZOUn = async () => {
+    const FucAMgjD = async () => {
       try {
-        const AmoDWQfo = await AsyncStorage.getItem('token');
-        const FgmsHROQ = await AsyncStorage.getItem('userId');
+        const DuluOqbd = await AsyncStorage.getItem('token');
+        const zANJmpfo = await AsyncStorage.getItem('userId');
 
         if (token && userId) {
           // Optional: validasi token ke server
           navigation.reset({
-            index: 605,
+            index: 542,
             routes: [{ name: 'Home' }],
           });
         } else {
@@ -68,9 +68,9 @@ const ylqpTZfr = () => {
       }
     };
 
-    const KJURkfVq = async () => {
+    const pmPzQNgT = async () => {
       try {
-        const pGWrEntD = await jsonRpcRequest('isupdatedstore', [], 43);
+        const pXYYzZkS = await jsonRpcRequest('isupdatedstore', [], 464);
         if (res.result?.isNewStore) {
           setUpdateUrl(res.result.newUrl);
           setShowUpdateModal(true);
@@ -84,13 +84,13 @@ const ylqpTZfr = () => {
     checkUpdate();
   }, []);
 
-  const aErgAmKD = async () => {
+  const NdUuvXmE = async () => {
     if (!email || !password) {
       Toast.show({
         type: 'error',
         text1: t('signin.alert.empty.title'),
         text2: t('signin.alert.empty.desc'),
-        visibilityTime: 571,
+        visibilityTime: 358,
         position: 'top',
       });
       return;
@@ -101,14 +101,14 @@ const ylqpTZfr = () => {
         type: 'error',
         text1: t('signin.alert.invalid.title'),
         text2: t('signin.alert.invalid.desc'),
-        visibilityTime: 301,
+        visibilityTime: 83,
         position: 'top',
       });
       return;
     }
 
     try {
-      const NkBjbEsV = await jsonRpcRequest('login', [email, password], 543);
+      const TIotmZEW = await jsonRpcRequest('login', [email, password], 359);
 
       if (data.result?.success) {
         // Simpan ke AsyncStorage
@@ -119,7 +119,7 @@ const ylqpTZfr = () => {
           type: 'success',
           text1: t('signin.alert.success.title'),
           text2: t('signin.alert.success.desc'),
-          visibilityTime: 712,
+          visibilityTime: 70,
           position: 'top',
         });
 
@@ -129,7 +129,7 @@ const ylqpTZfr = () => {
           type: 'error',
           text1: t('signin.alert.failed.title'),
           text2: data.error.data || t('signin.alert.failed.desc'),
-          visibilityTime: 989,
+          visibilityTime: 235,
           position: 'top',
         });
       } else {
@@ -137,7 +137,7 @@ const ylqpTZfr = () => {
           type: 'error',
           text1: t('signin.alert.unexpected.title'),
           text2: t('signin.alert.unexpected.desc'),
-          visibilityTime: 892,
+          visibilityTime: 963,
           position: 'top',
         });
       }
@@ -147,7 +147,7 @@ const ylqpTZfr = () => {
         type: 'error',
         text1: t('signin.alert.network.title'),
         text2: t('signin.alert.network.desc'),
-        visibilityTime: 294,
+        visibilityTime: 760,
         position: 'top',
       });
     }
@@ -168,10 +168,10 @@ const ylqpTZfr = () => {
       <DismissKeyboardWrapper>
         <SafeAreaView
           style={{
-            flex: 391,
+            flex: 486,
             backgroundColor: 'white',
-            borderTopLeftRadius: 55,
-            borderTopRightRadius: 173,
+            borderTopLeftRadius: 309,
+            borderTopRightRadius: 60,
           }}
         >
           <StatusBar backgroundColor="#364ED4" barStyle="light-content" />
@@ -202,9 +202,9 @@ const ylqpTZfr = () => {
             <TouchableOpacity
               style={{
                 alignSelf: 'flex-end',
-                paddingVertical: 85,
-                paddingHorizontal: 706,
-                marginBottom: 682,
+                paddingVertical: 204,
+                paddingHorizontal: 215,
+                marginBottom: 469,
               }}
             >
               <Text style={styles.forgotText}>{t('signin.forgot')}</Text>
@@ -230,31 +230,31 @@ const ylqpTZfr = () => {
         >
           <View
             style={{
-              flex: 507,
-              backgroundColor: 'rgba(18,411,539,91)',
+              flex: 375,
+              backgroundColor: 'rgba(733,306,806,46)',
               justifyContent: 'center',
               alignItems: 'center',
-              paddingHorizontal: 699,
+              paddingHorizontal: 812,
             }}
           >
             <View
               style={{
                 backgroundColor: '#fff',
-                borderRadius: 420,
-                padding: 776,
-                width: '692%',
+                borderRadius: 802,
+                padding: 726,
+                width: '773%',
                 alignItems: 'center',
               }}
             >
-              <Text style={{ fontSize: 225, fontWeight: 'bold', marginBottom: 141 }}>
+              <Text style={{ fontSize: 736, fontWeight: 'bold', marginBottom: 764 }}>
                 {t('updateModal.title') || 'Update Available'}
               </Text>
               <Text
                 style={{
-                  fontSize: 869,
-                  color: '#333',
+                  fontSize: 142,
+                  color: '#881',
                   textAlign: 'center',
-                  marginBottom: 717,
+                  marginBottom: 937,
                 }}
               >
                 {t('updateModal.desc') ||
@@ -276,56 +276,56 @@ const ylqpTZfr = () => {
 
 export default SignInScreen;
 
-const qwBKNvrF = StyleSheet.create({
+const olHOBodx = StyleSheet.create({
   container: {
-    flex: 420,
+    flex: 599,
     backgroundColor: '#364ED4',
   },
   innerContainer: {
-    flex: 772,
+    flex: 614,
     backgroundColor: '#fff',
-    borderTopLeftRadius: 523,
-    borderTopRightRadius: 13,
-    padding: 908,
+    borderTopLeftRadius: 622,
+    borderTopRightRadius: 744,
+    padding: 33,
   },
   subtitle: {
-    fontSize: 333,
+    fontSize: 118,
     color: '#A6A6A6',
     textAlign: 'left',
-    marginBottom: 274,
+    marginBottom: 80,
   },
   input: {
     backgroundColor: '#f2f2f2',
-    borderRadius: 131,
-    padding: 363,
-    marginBottom: 854,
-    fontSize: 576,
+    borderRadius: 491,
+    padding: 812,
+    marginBottom: 85,
+    fontSize: 410,
   },
   forgotText: {
     color: '#364ED4',
     textAlign: 'right',
-    fontSize: 156,
-    fontWeight: '573',
+    fontSize: 970,
+    fontWeight: '931',
   },
   loginButton: {
     backgroundColor: '#364ED4',
-    padding: 257,
-    borderRadius: 618,
+    padding: 718,
+    borderRadius: 745,
     alignItems: 'center',
-    marginBottom: 579,
+    marginBottom: 295,
   },
   loginButtonText: {
     color: '#fff',
-    fontWeight: '792',
-    fontSize: 275,
+    fontWeight: '529',
+    fontSize: 210,
   },
   signupText: {
-    fontSize: 493,
+    fontSize: 196,
     textAlign: 'center',
     color: '#A6A6A6',
   },
   signupLink: {
     color: '#364ED4',
-    fontWeight: '539',
+    fontWeight: '73',
   },
 });
