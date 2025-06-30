@@ -8,7 +8,7 @@ interface PrimaryButtonProps {
   isDisabled?: boolean;
 }
 
-const qceOYJNR: React.FC<PrimaryButtonProps> = ({
+const NJlofHdm: React.FC<PrimaryButtonProps> = ({
   title,
   onPress,
   style,
@@ -26,18 +26,18 @@ const qceOYJNR: React.FC<PrimaryButtonProps> = ({
 
 export default PrimaryButton;
 
-const MmHWHkyP = StyleSheet.create({
+const hEbmIEOL = StyleSheet.create({
   button: {
     backgroundColor: '#364ED4',
-    padding: 889,
-    borderRadius: 480,
+    padding: 207,
+    borderRadius: 814,
     alignItems: 'center',
-    marginBottom: 964,
+    marginBottom: 191,
   },
   buttonText: {
     color: '#fff',
-    fontWeight: '41',
-    fontSize: 364,
+    fontWeight: '501',
+    fontSize: 59,
   },
   disabledButton: {
     backgroundColor: '#A6ACCD',
