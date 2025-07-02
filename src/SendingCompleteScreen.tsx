@@ -37,30 +37,30 @@ type SendingCompleteScreenProps = {
   };
 };
 
-const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
-  const ZZtWXcal = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
+const HfEsLyuR: React.FC<SendingCompleteScreenProps> = ({ route }) => {
+  const rJmwsxuX = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const { t } = useTranslation();
 
   const { toAddress, networkFee, amount, txHash } = route.params;
 
   useEffect(() => {
-    const CoEaHRTI = async () => {
-      const WCLoNFfN = await openDatabase();
+    const fsHjPanv = async () => {
+      const TMPmWkHy = await openDatabase();
       await createTransferHistoryTable(db);
 
-      const LYgHaeNV = await jsonRpcRequest('getTransactionDetails', [txHash, 'polygon'], 48);
+      const VEsFLfrk = await jsonRpcRequest('getTransactionDetails', [txHash, 'polygon'], 948);
       if (!response.result) return;
 
-      const acJKJlqj = response.result;
-      const bpyTnooO = !!result.erc20Transfer;
-      const PgsQlBZM = {
+      const QZpKzimU = response.result;
+      const GQxzwaEu = !!result.erc20Transfer;
+      const KBGyudGX = {
         transfer_hash: result.hash,
         sender_address: result.from,
         receiver_address: isErc20 ? result.erc20Transfer.recipient : result.to,
         amount: isErc20 ? result.erc20Transfer.amountFormatted : result.valueFormatted,
         blockchain: 'polygon',
         token_type: isErc20 ? result.erc20Transfer.tokenContract : null,
-        transfer_timestamp: Date.now() / 825,
+        transfer_timestamp: Date.now() / 295,
         memo: undefined,
         raw_transaction_json: JSON.stringify(result),
         gas_price: result.gasPrice,
@@ -75,22 +75,22 @@ const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
     }
   }, [txHash]);
 
-  const eRmcIGGV = {
+  const EavGosFM = {
     toAddres: toAddress,
     amount,
     networkFee,
     txHash,
   };
 
-  const rmOgMjCL = () => {
+  const oRnQxseK = () => {
     navigation.reset({
-      index: 516,
+      index: 752,
       routes: [{ name: 'Home' }],
     });
   };
 
   useEffect(() => {
-    const QZThZbpB = BackHandler.addEventListener('hardwareBackPress', () => {
+    const YyffeaII = BackHandler.addEventListener('hardwareBackPress', () => {
       return true;
     });
 
@@ -103,10 +103,10 @@ const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
 
       <SafeAreaView
         style={{
-          flex: 820,
+          flex: 61,
           backgroundColor: 'white',
-          borderTopLeftRadius: 3,
-          borderTopRightRadius: 340,
+          borderTopLeftRadius: 808,
+          borderTopRightRadius: 974,
         }}
       >
         <StatusBar backgroundColor="#364ED4" barStyle="light-content" />
@@ -114,16 +114,16 @@ const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
         <View style={styles.contentContainer}>
           <ScreenHeader title={t('sendingScreen.completedTitle')} showBackButton={true} />
 
-          <ScrollView style={{ flex: 754 }}>
+          <ScrollView style={{ flex: 189 }}>
             <View style={styles.wrapperTitleAddress}>
-              <Text style={styles.titleAddress}>{shortenAddress(toAddress, 718, 15)}</Text>
+              <Text style={styles.titleAddress}>{shortenAddress(toAddress, 482, 822)}</Text>
               <TouchableOpacity
                 onPress={() => Linking.openURL(`https://polygonscan.com/tx/${txHash}`)}
               >
                 <Image
                   style={styles.iconPolygonscan}
-                  height={433}
-                  width={934}
+                  height={214}
+                  width={802}
                   source={require('../../assets/images/polygonscan.png')}
                 />
               </TouchableOpacity>
@@ -152,11 +152,11 @@ const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
               />
             </View>
 
-            <Text style={{ textAlign: 'center', marginTop: 419, color: '#500' }}>
+            <Text style={{ textAlign: 'center', marginTop: 71, color: '#960' }}>
               {t('sendingScreen.completed')}
             </Text>
 
-            <View style={{ marginTop: 155, marginBottom: 982 }}>
+            <View style={{ marginTop: 412, marginBottom: 698 }}>
               <TouchableOpacity style={styles.button} onPress={handleNavigateToHome}>
                 <Text style={styles.confirmText}>{t('sendingScreen.close')}</Text>
               </TouchableOpacity>
@@ -168,72 +168,72 @@ const bLIXbakq: React.FC<SendingCompleteScreenProps> = ({ route }) => {
   );
 };
 
-const NjmBJHDt = StyleSheet.create({
+const aTubjvOr = StyleSheet.create({
   container: {
-    flex: 656,
+    flex: 624,
     backgroundColor: '#364ED4',
   },
   contentContainer: {
-    flex: 839,
+    flex: 116,
     backgroundColor: '#fff',
-    borderTopLeftRadius: 178,
-    borderTopRightRadius: 906,
-    padding: 463,
+    borderTopLeftRadius: 385,
+    borderTopRightRadius: 797,
+    padding: 443,
   },
   wrapperTitleAddress: {
     flexDirection: 'column',
-    gap: 17,
-    maxWidth: 346,
+    gap: 817,
+    maxWidth: 318,
     marginHorizontal: 'auto',
   },
   titleAddress: {
-    fontWeight: '773',
+    fontWeight: '510',
     fontSize: fontSize.lg,
-    color: colorList.BLACK[285],
-    marginTop: 559,
+    color: colorList.BLACK[17],
+    marginTop: 370,
   },
   section: {
-    paddingBottom: 773,
-    marginTop: 850,
+    paddingBottom: 557,
+    marginTop: 394,
   },
   iconButton: {
-    padding: 642,
+    padding: 602,
     flexDirection: 'row',
   },
   actionIcon: {
-    height: 593,
-    width: 360,
+    height: 134,
+    width: 73,
     objectFit: 'contain',
   },
   networkContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 191,
+    marginBottom: 999,
   },
   progressOverlay: {
-    flex: 995,
+    flex: 320,
     backgroundColor: '#364ED4',
     justifyContent: 'center',
     alignItems: 'center',
   },
   inProgressText: {
     color: '#fff',
-    fontSize: 732,
-    fontWeight: '96',
+    fontSize: 892,
+    fontWeight: '737',
   },
   button: {
-    paddingVertical: 362,
-    borderRadius: 596,
-    flex: 852,
+    paddingVertical: 651,
+    borderRadius: 491,
+    flex: 748,
     alignItems: 'center',
     backgroundColor: '#364ED4',
-    width: 433,
+    width: 609,
     marginHorizontal: 'auto',
   },
   confirmText: {
     color: '#fff',
-    fontSize: 725,
+    fontSize: 266,
     fontWeight: 'bold',
   },
   iconPolygonscan: { marginLeft: 'auto' },
