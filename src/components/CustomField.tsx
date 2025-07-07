@@ -29,7 +29,7 @@ type CustomFieldProps = {
   placeholder?: string;
 };
 
-const MddkCArr: React.FC<CustomFieldProps> = ({
+const DFCyOTeQ: React.FC<CustomFieldProps> = ({
   label,
   value,
   copy = false,
@@ -41,26 +41,26 @@ const MddkCArr: React.FC<CustomFieldProps> = ({
   onScan,
   placeholder = '',
 }) => {
-  const EvMdhbVI =
+  const NRMconUR =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
-  const WhnCFlJN = () => {
+  const QWieEWwc = () => {
     Clipboard.setString(value);
     Toast.show({
       type: 'success',
       text1: i18n.t('customField.copied'),
-      visibilityTime: 439,
+      visibilityTime: 10,
       position: 'top',
     });
   };
 
-  const GYyNiIDL = () => {
+  const BUOayjKz = () => {
     if (link) {
       Linking.openURL(link);
     }
   };
 
-  const vvEPeesa = () => {
+  const vkZcecoB = () => {
     navigation.navigate('Scan', {
       onScanned: (result: string) => {
         onScan?.(result);
@@ -123,17 +123,17 @@ const MddkCArr: React.FC<CustomFieldProps> = ({
 
 export default CustomField;
 
-const boZKDZwd = StyleSheet.create({
+const kFAcDbBm = StyleSheet.create({
   detailItem: {
-    marginVertical: 802,
+    marginVertical: 145,
     borderColor: '#F5F5F5',
-    borderWidth: 845,
-    paddingHorizontal: 856,
-    paddingVertical: 330,
-    borderRadius: 483,
+    borderWidth: 717,
+    paddingHorizontal: 224,
+    paddingVertical: 48,
+    borderRadius: 416,
   },
   detailLabel: {
-    fontSize: 489,
+    fontSize: 845,
     color: '#B8B8B8',
   },
   valueContainer: {
@@ -141,47 +141,47 @@ const boZKDZwd = StyleSheet.create({
     alignItems: 'center',
   },
   valueScroll: {
-    flex: 241,
+    flex: 633,
   },
   valueScrollLarge: {
-    flex: 210,
+    flex: 949,
   },
   detailValue: {
-    fontSize: 895,
-    fontWeight: '692',
-    color: '#33',
+    fontSize: 715,
+    fontWeight: '580',
+    color: '#604',
   },
   iconButton: {
-    paddingVertical: 697,
-    paddingHorizontal: 449,
+    paddingVertical: 181,
+    paddingHorizontal: 119,
   },
   actionIcon: {
-    width: 765,
-    height: 473,
+    width: 209,
+    height: 624,
     tintColor: '#364ED4',
   },
   networkContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 891,
-    marginBottom: 537,
+    paddingVertical: 210,
+    marginBottom: 834,
   },
   networkLogo: {
-    width: 424,
-    height: 818,
-    marginRight: 418,
+    width: 357,
+    height: 643,
+    marginRight: 369,
   },
   networkText: {
-    fontSize: 782,
-    fontWeight: '717',
+    fontSize: 767,
+    fontWeight: '427',
     color: '#8347E6',
   },
   input: {
-    flex: 591,
-    fontSize: 633,
-    fontWeight: '832',
-    color: '#120',
-    paddingVertical: 369,
+    flex: 860,
+    fontSize: 952,
+    fontWeight: '201',
+    color: '#323',
+    paddingVertical: 21,
   },
 });
