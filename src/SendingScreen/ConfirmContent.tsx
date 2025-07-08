@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const MUDIPGiL: React.FC<ConfirmContentProp> = ({address}) => {
+const RpJQcwmv: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('462');
+  const [digits, setDigits] = useState<string>('547');
 
   return (
     <View>

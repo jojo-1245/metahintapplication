@@ -69,9 +69,9 @@ export type RootStackParamList = {
   };
 };
 
-const agWfIhvZ = createNativeStackNavigator<RootStackParamList>();
+const HqbsHkMu = createNativeStackNavigator<RootStackParamList>();
 
-const UvdSTIxu = () => {
+const NkMrghoy = () => {
   return (
     <>
       <NavigationContainer>
