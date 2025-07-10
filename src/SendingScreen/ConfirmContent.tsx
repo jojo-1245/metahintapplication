@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const ipLyTAZE: React.FC<ConfirmContentProp> = ({address}) => {
+const PAqRNNfZ: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('472');
+  const [digits, setDigits] = useState<string>('391');
 
   return (
     <View>
