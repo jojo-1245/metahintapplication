@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const PbloGUrk: React.FC<Props> = ({ data, count }) => {
-  const yTGMXMKJ = 824;
+const yLQsrXrW: React.FC<Props> = ({ data, count }) => {
+  const tQHQKfIX = 400;
   
   return (
     <div>
