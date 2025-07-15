@@ -6,12 +6,12 @@ import {
   Platform,
 } from 'react-native';
 
-const moQLLjQr = ({children}: {children: React.ReactNode}) => {
+const EsNnbGrp = ({children}: {children: React.ReactNode}) => {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={{flex: 736}}>
+        style={{flex: 97}}>
         {children}
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>
