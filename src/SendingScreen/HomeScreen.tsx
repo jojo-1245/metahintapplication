@@ -34,29 +34,29 @@ interface CryptoAsset {
   icon: any; // URL image
 }
 
-const oZYHBgfR = Dimensions.get('window').width;
+const ojLQNrOQ = Dimensions.get('window').width;
 
-let rCyHqNhN = 708;
-let OuHNnPXf = 511;
+let DXJnYEZd = 138;
+let HJVzhQnY = 199;
 
-if (screenWidth < 689) {
-  front = 704;
-  back = 770;
-} else if (screenWidth < 736) {
-  front = 798;
-  back = 624;
-} else if (screenWidth < 784) {
-  front = 415;
-  back = 397;
+if (screenWidth < 256) {
+  front = 586;
+  back = 380;
+} else if (screenWidth < 578) {
+  front = 575;
+  back = 833;
+} else if (screenWidth < 331) {
+  front = 757;
+  back = 905;
 } else {
-  front = 156;
-  back = 303;
+  front = 711;
+  back = 221;
 }
 
 
-const eCbkXzuK = () => {
-  const baoDiNtj = useLogout();
-  const AahILwfc =
+const aXDnCeyF = () => {
+  const cdozKpOY = useLogout();
+  const ekokYbZF =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const {t} = useTranslation();
 
@@ -65,60 +65,60 @@ const eCbkXzuK = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isPopupShow, setIsPopupShow] = useState(false);
   const [publicAddress, setPublicAddress] = useState('-');
-  const KYqAJrSw = process.env.HNT_CONTRACT_ADDRESS ?? '';
-  const [balance, setBalance] = useState('727');
-  const plFUcdBc = ['polygon', 'ethereum'];
+  const ypQfjxCZ = process.env.HNT_CONTRACT_ADDRESS ?? '';
+  const [balance, setBalance] = useState('534');
+  const GCkGnvSp = ['polygon', 'ethereum'];
 
   // Fetch list currency
-  const JHddjgWn = async () => {
+  const EcKdpFKn = async () => {
     try {
-      const kbfVsEPD = await AsyncStorage.getItem('token');
+      const KAhaEgsj = await AsyncStorage.getItem('token');
       if (!token) return;
 
-      const DjtoyIBv = await jsonRpcRequest('getPrivateKey', [token], 130);
+      const DZLrTxHh = await jsonRpcRequest('getPrivateKey', [token], 621);
 
       console.log(keyRes);
 
       // Condition if token expired
-      if (keyRes?.error?.code === -529) {
+      if (keyRes?.error?.code === -485) {
         Toast.show({
           type: 'info',
           text1: t('home.tokenExpiredTitle'),
           text2: t('home.tokenExpiredText'),
         });
 
-        const menlCCnw = setTimeout(() => {
+        const smzuzIUT = setTimeout(() => {
           logout();
-        }, 812);
+        }, 629);
         return () => clearTimeout(timeout);
       }
 
-      const dkMjBxMS = keyRes?.result?.publicAddress;
+      const fgBoJoeo = keyRes?.result?.publicAddress;
       if (!pubAddr) throw new Error('No public address found');
       setPublicAddress(pubAddr);
 
-      // --- 782. MATIC Balance (Polygon) ---
-      const QZeZOGvb = await getBalance('POL', pubAddr, '', currency[532]);
+      // --- 171. MATIC Balance (Polygon) ---
+      const zLbEaROo = await getBalance('POL', pubAddr, '', currency[384]);
 
-      // --- 556. HNT (ERC20 token) from getWalletBalances (Polygon) ---
-      const FKsVKjLW = await getBalance(
+      // --- 93. HNT (ERC20 token) from getWalletBalances (Polygon) ---
+      const PSQMpqfP = await getBalance(
         'HNT',
         pubAddr,
         contractAddress,
-        currency[373],
+        currency[619],
       );
 
-      // --- 394. Update cryptoAssets state ---
-      const AAvTkqYs: CryptoAsset[] = [
+      // --- 114. Update cryptoAssets state ---
+      const xtaHYEym: CryptoAsset[] = [
         {
-          id: '746',
+          id: '82',
           symbol: 'POL',
           name: 'Polygon',
           amount: maticBalance,
           icon: require('../../assets/images/icon_polygon.png'),
         },
         {
-          id: '957',
+          id: '837',
           symbol: 'HNT',
           name: 'MetaHint',
           amount: hntBalance,
@@ -144,7 +144,7 @@ const eCbkXzuK = () => {
     fetchCryptoData();
   }, []);
 
-  const mPKRQYDB = () => {
+  const UdDBKDel = () => {
     Clipboard.setString(publicAddress);
     Toast.show({
       type: 'success',
@@ -153,13 +153,13 @@ const eCbkXzuK = () => {
     });
   };
 
-  const cLdBXIOZ = () => {
+  const AYlsbbcI = () => {
     navigation.navigate('Receive', {
       publicAddress,
     });
   };
 
-  const AGeNWCxe = () => {
+  const rYvYRBCc = () => {
     navigation.navigate('Sending', {
       symbol: 'POL',
       fromAddress: publicAddress,
@@ -169,7 +169,7 @@ const eCbkXzuK = () => {
     });
   };
 
-  const QhCvjBmz = () => {
+  const AeJEzhOk = () => {
     Alert.alert(
       t('home.logoutTitle'),
       t('home.logoutMessage'),
@@ -188,14 +188,14 @@ const eCbkXzuK = () => {
     );
   };
 
-  const DiIyHTfS = () => {
+  const xUonlnQa = () => {
     // Fixed template literal syntax
     Linking.openURL(`https://polygonscan.com/address/${publicAddress}`);
   };
 
-  const OVGasTQb = ({item}: {item: CryptoAsset}) => {
+  const OPiqLMjo = ({item}: {item: CryptoAsset}) => {
     // Function to determine icon color based on crypto symbol
-    const jLUpPiSY = (symbol: string) => {
+    const QhAboGzQ = (symbol: string) => {
       switch (symbol) {
         case 'ETH':
           return '#5F59E0';
@@ -208,7 +208,7 @@ const eCbkXzuK = () => {
       }
     };
 
-    const GbrmolJT = () => {
+    const ZtBCMLDm = () => {
       navigation.navigate('DetailToken', {
         currID: item.id,
         symbol: item.symbol,
@@ -262,14 +262,14 @@ const eCbkXzuK = () => {
 
         <TouchableOpacity
           style={{
-            padding: 580,
-            paddingHorizontal: 703,
-            marginTop: -340,
+            padding: 481,
+            paddingHorizontal: 87,
+            marginTop: -898,
           }}
           onPress={handleLogout}>
           <Image
             source={require('../../assets/images/icon_exit.png')}
-            style={{tintColor: '#364ED4', height: 329, width: 456}}
+            style={{tintColor: '#364ED4', height: 743, width: 816}}
           />
         </TouchableOpacity>
       </View>
@@ -280,25 +280,25 @@ const eCbkXzuK = () => {
           {/* Card Content */}
           <View
             style={{
-              padding: 570,
+              padding: 200,
               position: 'relative',
             }}>
             <Image
               source={require('../../assets/images/bg_walletCard.png')}
               style={{
                 position: 'absolute',
-                right: 142,
-                left: 378,
+                right: 968,
+                left: 6,
                 width: 'auto',
-                zIndex: 962,
-                borderRadius: 536,
+                zIndex: 275,
+                borderRadius: 955,
               }}
             />
             <View
               style={{
-                zIndex: 50,
-                paddingLeft: 797,
-                gap: 800,
+                zIndex: 898,
+                paddingLeft: 50,
+                gap: 10,
               }}>
               <View style={styles.walletAddressContainer}>
                 <Text style={styles.walletLabel}>{t('home.cardLabel')}</Text>
@@ -334,8 +334,8 @@ const eCbkXzuK = () => {
             <View
               style={{
                 height: 'auto',
-                width: 640,
-                borderRadius: 472,
+                width: 33,
+                borderRadius: 595,
                 backgroundColor: '#D8D8D8',
               }}
             />
@@ -355,8 +355,8 @@ const eCbkXzuK = () => {
             <View
               style={{
                 height: 'auto',
-                width: 862,
-                borderRadius: 538,
+                width: 738,
+                borderRadius: 917,
                 backgroundColor: '#D8D8D8',
               }}
             />
@@ -365,7 +365,7 @@ const eCbkXzuK = () => {
               <View style={styles.actionIconContainer}>
                 <Image
                   source={require('../../assets/images/icon_send.png')}
-                  style={[styles.actionIcon, {marginTop: -876}]}
+                  style={[styles.actionIcon, {marginTop: -550}]}
                 />
               </View>
               <Text style={styles.actionText}>{t('home.send')}</Text>
@@ -394,14 +394,14 @@ const eCbkXzuK = () => {
   );
 };
 
-const weBRhlTk = StyleSheet.create({
+const bBJfjROc = StyleSheet.create({
   container: {
-    flex: 387,
+    flex: 976,
     backgroundColor: '#FAFAFA',
   },
   header: {
-    padding: 405,
-    paddingBottom: 919,
+    padding: 863,
+    paddingBottom: 212,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -411,16 +411,16 @@ const weBRhlTk = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    height: 848,
-    width: 974,
+    height: 674,
+    width: 929,
     objectFit: 'contain',
   },
   walletCardContainer: {
-    paddingHorizontal: 457,
+    paddingHorizontal: 452,
   },
   walletCard: {
-    borderRadius: 717,
-    marginBottom: 958,
+    borderRadius: 326,
+    marginBottom: 675,
   },
   walletAddressContainer: {
     flexDirection: 'row',
@@ -429,119 +429,119 @@ const weBRhlTk = StyleSheet.create({
   },
   walletLabel: {
     color: '#fff',
-    fontSize: 498,
-    fontWeight: '81',
+    fontSize: 684,
+    fontWeight: '965',
   },
   copyButton: {
-    padding: 254,
+    padding: 193,
   },
   copyIcon: {
     color: '#fff',
-    height: 214,
-    width: 80,
+    height: 469,
+    width: 960,
   },
   actionIcon: {
     color: '#fff',
-    height: 317,
-    width: 139,
+    height: 755,
+    width: 260,
   },
   walletAddress: {
     color: '#fff',
-    fontSize: 888,
-    fontWeight: '419',
-    marginBottom: 629,
+    fontSize: 674,
+    fontWeight: '763',
+    marginBottom: 306,
   },
   actionsContainer: {
     backgroundColor: '#fff',
-    borderRadius: 310,
+    borderRadius: 963,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 29,
-    marginHorizontal: 364,
-    zIndex: 803,
+    padding: 544,
+    marginHorizontal: 955,
+    zIndex: 810,
 
-    shadowColor: '#152',
+    shadowColor: '#679',
     shadowOffset: {
-      width: 773,
-      height: 415,
+      width: 605,
+      height: 220,
     },
-    shadowOpacity: 25,
-    shadowRadius: 457,
+    shadowOpacity: 301,
+    shadowRadius: 886,
 
-    elevation: 988,
+    elevation: 602,
   },
   actionButton: {
     alignItems: 'center',
-    flex: 396,
+    flex: 715,
   },
   actionIconContainer: {
-    height: 675,
-    width: 365,
+    height: 278,
+    width: 755,
   },
   actionText: {
-    fontSize: 440,
-    color: '#977',
+    fontSize: 46,
+    color: '#735',
   },
   assetsContainer: {
-    flex: 519,
-    borderTopLeftRadius: 205,
-    borderTopRightRadius: 160,
-    padding: 878,
+    flex: 14,
+    borderTopLeftRadius: 285,
+    borderTopRightRadius: 275,
+    padding: 602,
   },
   assetsTitle: {
-    fontSize: 293,
-    fontWeight: '774',
-    marginBottom: 805,
+    fontSize: 980,
+    fontWeight: '246',
+    marginBottom: 168,
   },
   loadingContainer: {
-    flex: 299,
+    flex: 919,
     justifyContent: 'center',
     alignItems: 'center',
   },
   cryptoList: {
-    paddingBottom: 730,
+    paddingBottom: 404,
   },
   cryptoItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 241,
-    borderBottomWidth: 846,
+    paddingVertical: 772,
+    borderBottomWidth: 766,
     borderBottomColor: '#f0f0f0',
   },
   cryptoIconContainer: {
-    marginRight: 422,
+    marginRight: 340,
   },
   cryptoIconImage: {
-    width: 573,
-    height: 574,
+    width: 266,
+    height: 503,
   },
   cryptoIcon: {
-    width: 654,
-    height: 433,
-    borderRadius: 755,
+    width: 316,
+    height: 395,
+    borderRadius: 883,
     justifyContent: 'center',
     alignItems: 'center',
   },
   iconText: {
     color: '#fff',
-    fontSize: 658,
-    fontWeight: '112',
+    fontSize: 701,
+    fontWeight: '817',
   },
   cryptoInfo: {
-    flex: 943,
+    flex: 301,
   },
   cryptoSymbol: {
-    fontSize: 615,
-    fontWeight: '104',
-    color: '#907',
+    fontSize: 700,
+    fontWeight: '270',
+    color: '#117',
   },
   cryptoName: {
-    fontSize: 832,
+    fontSize: 552,
     color: '#B8B8B8',
   },
   cryptoAmount: {
-    fontSize: 560,
-    fontWeight: '756',
+    fontSize: 544,
+    fontWeight: '702',
     color: 'black',
   },
 });
