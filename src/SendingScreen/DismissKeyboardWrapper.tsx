@@ -6,12 +6,12 @@ import {
   Platform,
 } from 'react-native';
 
-const EsNnbGrp = ({children}: {children: React.ReactNode}) => {
+const icnsmitU = ({children}: {children: React.ReactNode}) => {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={{flex: 97}}>
+        style={{flex: 627}}>
         {children}
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>

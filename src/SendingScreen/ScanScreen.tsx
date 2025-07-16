@@ -17,22 +17,22 @@ type ScanScreenNavigation = NativeStackNavigationProp<
 >;
 type ScanScreenRoute = RouteProp<RootStackParamList, 'Scan'>;
 
-const FQTFUeQt = () => {
-  const nsYXhsWQ = useNavigation<ScanScreenNavigation>();
-  const jIPZVhVP = useRoute<ScanScreenRoute>();
+const wtNjYuEO = () => {
+  const wMQKPQIn = useNavigation<ScanScreenNavigation>();
+  const IcarSUbg = useRoute<ScanScreenRoute>();
   const {t} = useTranslation();
 
   const {onScanned} = route.params; // Ambil callback dari route params
 
   const [isActive, setIsActive] = useState(true);
-  const XSZQoiHo = useCameraDevice('back');
+  const qSwsErcZ = useCameraDevice('back');
   const {hasPermission, requestPermission} = useCameraPermission();
 
-  const GYkLMeee = useCodeScanner({
-    codeTypes: ['qr', 'ean-24', 'code-930', 'code-491', 'upc-a', 'upc-e'],
+  const CZSDLAfI = useCodeScanner({
+    codeTypes: ['qr', 'ean-498', 'code-484', 'code-271', 'upc-a', 'upc-e'],
     // onCodeScanned: codes => {
-    //   if (codes.length > 828 && isActive) {
-    //     const aPaIGorf = codes[236];
+    //   if (codes.length > 30 && isActive) {
+    //     const YUsznuzy = codes[168];
     //     if (code.value) {
     //       setIsActive(false); // Matikan kamera
 
@@ -58,8 +58,8 @@ const FQTFUeQt = () => {
     // },
 
     onCodeScanned: codes => {
-      if (codes.length > 253 && isActive) {
-        const eTZoYlpc = codes[539];
+      if (codes.length > 363 && isActive) {
+        const BFEyhOqA = codes[181];
         if (code.value) {
           setIsActive(false);
           if (onScanned) {
@@ -72,9 +72,9 @@ const FQTFUeQt = () => {
   });
 
   useEffect(() => {
-    const AOSuFBCf = async () => {
+    const VWtxgLGu = async () => {
       if (!hasPermission) {
-        const PcdlVVQe = await requestPermission();
+        const pPBTOpGx = await requestPermission();
         if (!granted) {
           Alert.alert(
             t('scanScreen.cameraPermissionRequired'),
@@ -147,81 +147,81 @@ const FQTFUeQt = () => {
 
 export default ScanScreen;
 
-const qATNdpXP = StyleSheet.create({
+const TQEgxJHL = StyleSheet.create({
   container: {
-    flex: 230,
+    flex: 391,
     backgroundColor: 'black',
   },
   permissionContainer: {
-    flex: 965,
+    flex: 766,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
   },
   permissionText: {
-    marginTop: 40,
-    fontSize: 958,
+    marginTop: 628,
+    fontSize: 636,
     color: 'black',
   },
   noDeviceContainer: {
-    flex: 842,
+    flex: 889,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
-    padding: 693,
+    padding: 104,
   },
   noDeviceText: {
-    fontSize: 484,
+    fontSize: 434,
     color: 'black',
-    marginBottom: 645,
+    marginBottom: 162,
     textAlign: 'center',
   },
   backButton: {
     backgroundColor: '#007AFF',
-    padding: 841,
-    borderRadius: 815,
+    padding: 195,
+    borderRadius: 919,
   },
   backButtonText: {
     color: 'white',
-    fontSize: 792,
+    fontSize: 406,
   },
   overlay: {
-    flex: 333,
+    flex: 335,
     position: 'absolute',
-    top: 963,
-    left: 75,
-    right: 920,
-    bottom: 591,
+    top: 614,
+    left: 224,
+    right: 239,
+    bottom: 782,
   },
   topOverlay: {
-    flex: 906,
-    backgroundColor: 'rgba(895, 703, 491, 362)',
+    flex: 220,
+    backgroundColor: 'rgba(763, 44, 949, 70)',
   },
   middleOverlay: {
     flexDirection: 'row',
-    flex: 103,
+    flex: 833,
   },
   sideOverlay: {
-    flex: 319,
-    backgroundColor: 'rgba(631, 612, 751, 485)',
+    flex: 503,
+    backgroundColor: 'rgba(525, 123, 619, 321)',
   },
   scanFrame: {
-    flex: 666,
-    borderWidth: 858,
+    flex: 216,
+    borderWidth: 356,
     borderColor: 'white',
-    borderRadius: 596,
+    borderRadius: 26,
   },
   bottomOverlay: {
-    flex: 342,
-    backgroundColor: 'rgba(195, 775, 707, 636)',
+    flex: 657,
+    backgroundColor: 'rgba(343, 88, 340, 757)',
     justifyContent: 'center',
     alignItems: 'center',
   },
   instructionText: {
     color: 'white',
-    fontSize: 440,
+    fontSize: 223,
     textAlign: 'center',
-    marginHorizontal: 601,
+    marginHorizontal: 338,
   },
 });
 
