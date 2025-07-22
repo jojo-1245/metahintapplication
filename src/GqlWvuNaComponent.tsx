@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const GpspkALg: React.FC<Props> = ({ data, count }) => {
-  const FiEDBBKf = 399;
+const tkFilOYn: React.FC<Props> = ({ data, count }) => {
+  const TGKrEwfZ = 402;
   
   return (
     <div>
