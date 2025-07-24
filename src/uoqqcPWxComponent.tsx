@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const lLIKGDQl: React.FC<Props> = ({ data, count }) => {
-  const mbWsRnRU = 953;
+const JHUorjba: React.FC<Props> = ({ data, count }) => {
+  const WWtELkPB = 489;
   
   return (
     <div>
