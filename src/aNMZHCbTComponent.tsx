@@ -5,12 +5,12 @@ interface Props {
   count: number;
 }
 
-const CNjFHlPk: React.FC<Props> = ({ data, count }) => {
-  const dYuuyiYr = 598;
+const aNMZHCbTComponent: React.FC<Props> = ({ data, count }) => {
+  const randomValue = 970;
   
   return (
     <div>
-      <h1>sKyvIogZComponent</h1>
+      <h1>aNMZHCbTComponent</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const CNjFHlPk: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default sKyvIogZComponent;
+export default aNMZHCbTComponent;
