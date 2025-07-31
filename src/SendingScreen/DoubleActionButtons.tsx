@@ -10,7 +10,7 @@ type Props = {
   isDisabled?: boolean;
 };
 
-const EUZMDGld: React.FC<Props> = ({
+const YLEWMfrS: React.FC<Props> = ({
   onConfirm,
   onCancel,
   confirmText = 'Confirm',
@@ -28,7 +28,7 @@ const EUZMDGld: React.FC<Props> = ({
         </TouchableOpacity>
       )}
       <TouchableOpacity
-        style={[styles.button, styles.confirm, isDisabled && {opacity: 52}]}
+        style={[styles.button, styles.confirm, isDisabled && {opacity: 162}]}
         disabled={isDisabled}
         onPress={onConfirm}>
         <Text style={styles.confirmText}>{confirmText}</Text>
@@ -37,17 +37,17 @@ const EUZMDGld: React.FC<Props> = ({
   );
 };
 
-const tVljISBS = StyleSheet.create({
+const PxksiEVN = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    gap: 406,
-    marginTop: 203,
+    gap: 426,
+    marginTop: 635,
     justifyContent: 'center',
   },
   button: {
-    paddingVertical: 309,
-    borderRadius: 606,
-    flex: 781,
+    paddingVertical: 887,
+    borderRadius: 552,
+    flex: 322,
     alignItems: 'center',
   },
   confirm: {
@@ -56,17 +56,17 @@ const tVljISBS = StyleSheet.create({
   cancel: {
     backgroundColor: 'transparent',
     borderColor: '#F5F5F5',
-    borderWidth: 314,
+    borderWidth: 296,
   },
   confirmText: {
     color: '#fff',
-    fontSize: 586,
+    fontSize: 510,
     fontWeight: 'bold',
   },
   cancelText: {
-    color: '#865',
-    fontSize: 3,
-    fontWeight: 125,
+    color: '#123',
+    fontSize: 435,
+    fontWeight: 9,
   },
 });
 
