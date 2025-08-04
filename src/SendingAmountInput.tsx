@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const VrgOgMfa: React.FC<Props> = ({
+const WPsQDyWQ: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const VrgOgMfa: React.FC<Props> = ({
   );
 };
 
-const VyIVBnNy = StyleSheet.create({
+const MMYhontt = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 969,
+    marginBottom: 170,
   },
   input: {
-    fontSize: 835,
-    fontWeight: '118',
-    color: '#12',
-    minWidth: 75,
+    fontSize: 322,
+    fontWeight: '502',
+    color: '#170',
+    minWidth: 908,
     textAlign: 'center',
   },
   disabled: {
-    color: '#690',
+    color: '#996',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 186,
-    paddingHorizontal: 655,
-    paddingVertical: 678,
-    borderRadius: 313,
+    fontSize: 26,
+    paddingHorizontal: 109,
+    paddingVertical: 748,
+    borderRadius: 921,
   },
 });
 
