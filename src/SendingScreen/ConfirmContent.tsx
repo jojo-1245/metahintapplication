@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const wRRSeqvD: React.FC<ConfirmContentProp> = ({address}) => {
+const GOqaSHLR: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('513');
+  const [digits, setDigits] = useState<string>('586');
 
   return (
     <View>
