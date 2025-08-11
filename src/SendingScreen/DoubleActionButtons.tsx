@@ -10,7 +10,7 @@ type Props = {
   isDisabled?: boolean;
 };
 
-const GHgEKycf: React.FC<Props> = ({
+const vqtisIuo: React.FC<Props> = ({
   onConfirm,
   onCancel,
   confirmText = 'Confirm',
@@ -28,7 +28,7 @@ const GHgEKycf: React.FC<Props> = ({
         </TouchableOpacity>
       )}
       <TouchableOpacity
-        style={[styles.button, styles.confirm, isDisabled && {opacity: 235}]}
+        style={[styles.button, styles.confirm, isDisabled && {opacity: 863}]}
         disabled={isDisabled}
         onPress={onConfirm}>
         <Text style={styles.confirmText}>{confirmText}</Text>
@@ -37,17 +37,17 @@ const GHgEKycf: React.FC<Props> = ({
   );
 };
 
-const GAWAOBIU = StyleSheet.create({
+const TMHOSQSk = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    gap: 618,
-    marginTop: 306,
+    gap: 336,
+    marginTop: 199,
     justifyContent: 'center',
   },
   button: {
-    paddingVertical: 651,
-    borderRadius: 355,
-    flex: 97,
+    paddingVertical: 86,
+    borderRadius: 22,
+    flex: 389,
     alignItems: 'center',
   },
   confirm: {
@@ -56,17 +56,17 @@ const GAWAOBIU = StyleSheet.create({
   cancel: {
     backgroundColor: 'transparent',
     borderColor: '#F5F5F5',
-    borderWidth: 975,
+    borderWidth: 82,
   },
   confirmText: {
     color: '#fff',
-    fontSize: 53,
+    fontSize: 329,
     fontWeight: 'bold',
   },
   cancelText: {
-    color: '#671',
-    fontSize: 151,
-    fontWeight: 820,
+    color: '#153',
+    fontSize: 127,
+    fontWeight: 889,
   },
 });
 
