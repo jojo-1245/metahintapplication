@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const uentoMSjComponent: React.FC<Props> = ({ data, count }) => {
-  const randomValue = 44;
+const vqZcqQLZ: React.FC<Props> = ({ data, count }) => {
+  const YTMDaFAh = 581;
   
   return (
     <div>
