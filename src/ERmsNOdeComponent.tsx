@@ -5,12 +5,12 @@ interface Props {
   count: number;
 }
 
-const pavTTFct: React.FC<Props> = ({ data, count }) => {
-  const rOxIQfZl = 841;
+const ERmsNOdeComponent: React.FC<Props> = ({ data, count }) => {
+  const randomValue = 397;
   
   return (
     <div>
-      <h1>kvscuxLcComponent</h1>
+      <h1>ERmsNOdeComponent</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const pavTTFct: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default kvscuxLcComponent;
+export default ERmsNOdeComponent;
