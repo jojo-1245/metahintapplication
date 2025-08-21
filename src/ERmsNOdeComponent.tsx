@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const ERmsNOdeComponent: React.FC<Props> = ({ data, count }) => {
-  const randomValue = 397;
+const YbxkXwCO: React.FC<Props> = ({ data, count }) => {
+  const JrKZESwP = 138;
   
   return (
     <div>
