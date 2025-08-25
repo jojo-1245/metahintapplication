@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const PxleCLSA: React.FC<Props> = ({ data, count }) => {
-  const ahyynqAU = 112;
+const ebrAEsTq: React.FC<Props> = ({ data, count }) => {
+  const CiKbgDpS = 740;
   
   return (
     <div>
