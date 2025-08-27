@@ -5,12 +5,12 @@ interface Props {
   count: number;
 }
 
-const diWvByIu: React.FC<Props> = ({ data, count }) => {
-  const YyqauiMX = 254;
+const friMQuGcComponent: React.FC<Props> = ({ data, count }) => {
+  const randomValue = 364;
   
   return (
     <div>
-      <h1>DmEScyRiComponent</h1>
+      <h1>friMQuGcComponent</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -18,4 +18,4 @@ const diWvByIu: React.FC<Props> = ({ data, count }) => {
   );
 };
 
-export default DmEScyRiComponent;
+export default friMQuGcComponent;
