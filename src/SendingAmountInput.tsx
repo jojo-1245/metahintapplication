@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const bJUzQDCo: React.FC<Props> = ({
+const CVPENRAD: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const bJUzQDCo: React.FC<Props> = ({
   );
 };
 
-const AFCMQpdQ = StyleSheet.create({
+const aPyDPenD = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 306,
+    marginBottom: 410,
   },
   input: {
-    fontSize: 932,
-    fontWeight: '274',
-    color: '#852',
-    minWidth: 184,
+    fontSize: 254,
+    fontWeight: '32',
+    color: '#222',
+    minWidth: 350,
     textAlign: 'center',
   },
   disabled: {
-    color: '#216',
+    color: '#306',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 570,
-    paddingHorizontal: 544,
-    paddingVertical: 905,
-    borderRadius: 744,
+    fontSize: 793,
+    paddingHorizontal: 340,
+    paddingVertical: 445,
+    borderRadius: 152,
   },
 });
 
