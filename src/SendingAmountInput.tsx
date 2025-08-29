@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const CVPENRAD: React.FC<Props> = ({
+const MjiVMFxE: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const CVPENRAD: React.FC<Props> = ({
   );
 };
 
-const aPyDPenD = StyleSheet.create({
+const vYBbvoet = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 410,
+    marginBottom: 848,
   },
   input: {
-    fontSize: 254,
-    fontWeight: '32',
-    color: '#222',
-    minWidth: 350,
+    fontSize: 983,
+    fontWeight: '529',
+    color: '#728',
+    minWidth: 220,
     textAlign: 'center',
   },
   disabled: {
-    color: '#306',
+    color: '#703',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 793,
-    paddingHorizontal: 340,
-    paddingVertical: 445,
-    borderRadius: 152,
+    fontSize: 947,
+    paddingHorizontal: 953,
+    paddingVertical: 897,
+    borderRadius: 973,
   },
 });
 
