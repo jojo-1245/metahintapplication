@@ -6,10 +6,10 @@ interface ConfirmContentProp {
   address: string;
 }
 
-const ykWzNpmj: React.FC<ConfirmContentProp> = ({address}) => {
+const FnEucLXH: React.FC<ConfirmContentProp> = ({address}) => {
   const [tokenName, setTokenName] = useState<string>('Metahint');
   const [tokenSymbol, setTokenSymbol] = useState<string>('HNT');
-  const [digits, setDigits] = useState<string>('7');
+  const [digits, setDigits] = useState<string>('411');
 
   return (
     <View>
