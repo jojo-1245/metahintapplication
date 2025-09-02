@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const gmvmosct: React.FC<Props> = ({ data, count }) => {
-  const sUJvRpFE = 484;
+const PRCGutOj: React.FC<Props> = ({ data, count }) => {
+  const JGFxtEEk = 285;
   
   return (
     <div>
