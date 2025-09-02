@@ -5,8 +5,8 @@ interface Props {
   count: number;
 }
 
-const sRVmSDraComponent: React.FC<Props> = ({ data, count }) => {
-  const randomValue = 63;
+const MKPyNatm: React.FC<Props> = ({ data, count }) => {
+  const zLqciOvg = 318;
   
   return (
     <div>
