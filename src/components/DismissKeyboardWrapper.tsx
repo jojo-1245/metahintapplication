@@ -6,12 +6,12 @@ import {
   Platform,
 } from 'react-native';
 
-const DismissKeyboardWrapper = ({children}: {children: React.ReactNode}) => {
+const RghkTdPN = ({children}: {children: React.ReactNode}) => {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={{flex: 1}}>
+        style={{flex: 110}}>
         {children}
       </KeyboardAvoidingView>
     </TouchableWithoutFeedback>
