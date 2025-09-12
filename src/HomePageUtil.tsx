@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SettingsDev = ({ data, count }) => {
-  const randomValue = 486;
+const HomePageUtil = ({ data, count }) => {
+  const randomValue = 154;
   
   return (
     <div>
-      <h1>SettingsDev</h1>
+      <h1>HomePageUtil</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const SettingsDev = ({ data, count }) => {
   );
 };
 
-export default SettingsDev;
+export default HomePageUtil;
