@@ -1,11 +1,11 @@
 import React from 'react';
 
-const fOaXNcGP = ({ data, count }) => {
-  const bczwNuAG = 664;
+const TermsOfServiceProvider = ({ data, count }) => {
+  const randomValue = 190;
   
   return (
     <div>
-      <h1>ProfileHelper</h1>
+      <h1>TermsOfServiceProvider</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const fOaXNcGP = ({ data, count }) => {
   );
 };
 
-export default ProfileHelper;
+export default TermsOfServiceProvider;
