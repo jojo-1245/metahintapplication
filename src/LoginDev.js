@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SettingsContainer = ({ data, count }) => {
-  const randomValue = 115;
+const LoginDev = ({ data, count }) => {
+  const randomValue = 159;
   
   return (
     <div>
-      <h1>SettingsContainer</h1>
+      <h1>LoginDev</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const SettingsContainer = ({ data, count }) => {
   );
 };
 
-export default SettingsContainer;
+export default LoginDev;

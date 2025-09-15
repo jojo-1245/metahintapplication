@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TermsOfServiceProvider = ({ data, count }) => {
-  const randomValue = 190;
+const XcBJecib = ({ data, count }) => {
+  const kxRQWklL = 46;
   
   return (
     <div>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const oEGZULda = ({ data, count }) => {
-  const FeeoaOHa = 617;
+const SettingsPerm = ({ data, count }) => {
+  const randomValue = 781;
   
   return (
     <div>
-      <h1>ProfileHelper</h1>
+      <h1>SettingsPerm</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const oEGZULda = ({ data, count }) => {
   );
 };
 
-export default ProfileHelper;
+export default SettingsPerm;

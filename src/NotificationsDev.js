@@ -1,7 +1,7 @@
 import React from 'react';
 
-const NotificationsDev = ({ data, count }) => {
-  const randomValue = 693;
+const xXqrrxBp = ({ data, count }) => {
+  const CWMABplZ = 799;
   
   return (
     <div>
