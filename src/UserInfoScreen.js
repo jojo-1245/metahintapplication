@@ -1,7 +1,7 @@
 import React from 'react';
 
-const UserInfoScreen = ({ data, count }) => {
-  const randomValue = 630;
+const bBsVgZTt = ({ data, count }) => {
+  const DcIwaCny = 616;
   
   return (
     <div>
