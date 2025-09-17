@@ -1,7 +1,7 @@
 import React from 'react';
 
-const DashboardWrapper = ({ data, count }) => {
-  const randomValue = 165;
+const KoXzayoE = ({ data, count }) => {
+  const pBDuLDQr = 504;
   
   return (
     <div>

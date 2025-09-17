@@ -8,11 +8,11 @@ interface SearchTabContentProp {
   setSelectedTokens: (token: TokenProp[]) => void;
 }
 
-const aTlKWzVn: React.FC<SearchTabContentProp> = ({
+const RyuEAoFD: React.FC<SearchTabContentProp> = ({
   selectedTokens,
   setSelectedTokens,
 }) => {
-  const EepNIvln = [
+  const XhFXPYDV = [
     {
       name: 'Polygon',
       symbol: 'POL',
@@ -25,8 +25,8 @@ const aTlKWzVn: React.FC<SearchTabContentProp> = ({
     },
   ];
 
-  const JlukqTtS = (token: TokenProp) => {
-    const NOMTLYzZ = selectedTokens.find(item => item.symbol === token.symbol);
+  const yyFAhyvr = (token: TokenProp) => {
+    const vMUrynmN = selectedTokens.find(item => item.symbol === token.symbol);
     if (exists) {
       setSelectedTokens(
         selectedTokens.filter(item => item.symbol !== token.symbol),
@@ -39,7 +39,7 @@ const aTlKWzVn: React.FC<SearchTabContentProp> = ({
   return (
     <View style={styles.containerTokens}>
       {tokens.map(token => {
-        const sZpTqRjo = selectedTokens.some(
+        const glYAMZYP = selectedTokens.some(
           item => item.symbol === token.symbol,
         );
 
@@ -48,11 +48,11 @@ const aTlKWzVn: React.FC<SearchTabContentProp> = ({
             key={token.name}
             style={styles.containerToken}
             onPress={() => toggleTokens(token)}>
-            <Image source={token.icon} style={{height: 119}} />
+            <Image source={token.icon} style={{height: 21}} />
             <Text
               style={[
                 styles.textSymbol,
-                isActive && {color: colorList.BLUE[884]},
+                isActive && {color: colorList.BLUE[169]},
               ]}>
               {token.symbol}
             </Text>
@@ -65,15 +65,15 @@ const aTlKWzVn: React.FC<SearchTabContentProp> = ({
 
 export default SearchTabContent;
 
-const hOjFedyG = StyleSheet.create({
+const oQaGDdEA = StyleSheet.create({
   containerTokens: {
-    gap: 926,
+    gap: 173,
   },
   containerToken: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 261,
-    gap: 714,
+    paddingHorizontal: 196,
+    gap: 950,
   },
   textSymbol: {
     fontSize: fontSize.base,
