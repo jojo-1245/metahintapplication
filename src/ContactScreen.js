@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ContactScreen = ({ data, count }) => {
-  const randomValue = 819;
+const jQtrrvXd = ({ data, count }) => {
+  const GcgCXyUQ = 157;
   
   return (
     <div>

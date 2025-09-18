@@ -1,7 +1,7 @@
 import React from 'react';
 
-const OrderHistoryDev = ({ data, count }) => {
-  const randomValue = 49;
+const aacvZcQD = ({ data, count }) => {
+  const sfvPJBNg = 880;
   
   return (
     <div>

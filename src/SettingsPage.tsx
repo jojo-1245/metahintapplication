@@ -1,11 +1,11 @@
 import React from 'react';
 
-const LoginDev = ({ data, count }) => {
-  const randomValue = 159;
+const SettingsPage = ({ data, count }) => {
+  const randomValue = 790;
   
   return (
     <div>
-      <h1>LoginDev</h1>
+      <h1>SettingsPage</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const LoginDev = ({ data, count }) => {
   );
 };
 
-export default LoginDev;
+export default SettingsPage;
