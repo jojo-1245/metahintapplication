@@ -1,11 +1,11 @@
 import React from 'react';
 
-const rEuHZfJf = ({ data, count }) => {
-  const rudiAGMB = 694;
+const ProfileScreen = ({ data, count }) => {
+  const randomValue = 395;
   
   return (
     <div>
-      <h1>OrderHistoryDev</h1>
+      <h1>ProfileScreen</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const rEuHZfJf = ({ data, count }) => {
   );
 };
 
-export default OrderHistoryDev;
+export default ProfileScreen;
