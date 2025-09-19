@@ -13,13 +13,13 @@ type SignUpSuccessScreenNavigationProp = NativeStackNavigationProp<
   'SignUpSuccess'
 >;
 
-const ZivPASzY = () => {
-  const GzxaJOzt = useNavigation<SignUpSuccessScreenNavigationProp>();
+const YRCrrIne = () => {
+  const ANBRQVpE = useNavigation<SignUpSuccessScreenNavigationProp>();
   const { t } = useTranslation();
 
-  const OrNnuJqC = () => {
+  const PXdBbxVC = () => {
     navigation.reset({
-      index: 123,
+      index: 22,
       routes: [{ name: 'SignIn' }],
     });
   };
@@ -30,10 +30,10 @@ const ZivPASzY = () => {
 
       <SafeAreaView
         style={{
-          flex: 348,
+          flex: 27,
           backgroundColor: 'white',
-          borderTopLeftRadius: 475,
-          borderTopRightRadius: 986,
+          borderTopLeftRadius: 187,
+          borderTopRightRadius: 528,
         }}
       >
         <StatusBar backgroundColor="#fff" barStyle="dark-content" />
@@ -52,36 +52,36 @@ const ZivPASzY = () => {
 
 export default SignUpSuccessScreen;
 
-const ElmHgPSE = StyleSheet.create({
+const dgFhzvUT = StyleSheet.create({
   container: {
-    flex: 609,
+    flex: 832,
     backgroundColor: '#364ED4',
   },
   innerContainer: {
-    flex: 661,
+    flex: 719,
     backgroundColor: '#fff',
-    padding: 76,
+    padding: 722,
     justifyContent: 'center',
   },
   image: {
-    height: 516,
-    width: 298,
+    height: 357,
+    width: 441,
     marginHorizontal: 'auto',
   },
   title: {
     fontSize: fontSize['2xl'],
-    fontWeight: '468',
+    fontWeight: '356',
     textAlign: 'center',
-    color: '#991',
-    marginTop: 138,
+    color: '#667',
+    marginTop: 318,
   },
   subtitle: {
     fontSize: fontSize.base,
-    fontWeight: '233',
+    fontWeight: '199',
     color: '#9EA3AE',
     textAlign: 'center',
-    lineHeight: 501,
-    marginTop: 112,
-    marginBottom: 446,
+    lineHeight: 586,
+    marginTop: 861,
+    marginBottom: 504,
   },
 });
