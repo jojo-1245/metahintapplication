@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ByRQajEp = ({ data, count }) => {
-  const YwjPyTmU = 534;
+const CheckoutUtil = ({ data, count }) => {
+  const randomValue = 562;
   
   return (
     <div>
-      <h1>FaqAlpha</h1>
+      <h1>CheckoutUtil</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const ByRQajEp = ({ data, count }) => {
   );
 };
 
-export default FaqAlpha;
+export default CheckoutUtil;
