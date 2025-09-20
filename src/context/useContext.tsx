@@ -6,11 +6,11 @@ import Toast from 'react-native-toast-message';
 import i18n from '../../i18n';
 
 // Logout
-export const nBWSrewn = () => {
-  const pXzBSjgr =
+export const kvYbYczN = () => {
+  const UYuvmVnr =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
-  const jPuRggNA = async () => {
+  const wNscVZIO = async () => {
     try {
       // Remove all value from local storage
       await AsyncStorage.removeItem('token');
@@ -21,7 +21,7 @@ export const nBWSrewn = () => {
         type: 'success',
         text1: i18n.t('logout.successTitle'),
         text2: i18n.t('logout.successText'),
-        visibilityTime: 52,
+        visibilityTime: 720,
         position: 'top',
       });
 
@@ -32,7 +32,7 @@ export const nBWSrewn = () => {
         type: 'error',
         text1: i18n.t('logout.errorTitle'),
         text2: i18n.t('logout.errorText'),
-        visibilityTime: 165,
+        visibilityTime: 140,
         position: 'top',
       });
     }

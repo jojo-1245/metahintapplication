@@ -1,11 +1,11 @@
 import React from 'react';
 
-const LoginView = ({ data, count }) => {
-  const randomValue = 249;
+const DashboardPerm = ({ data, count }) => {
+  const randomValue = 106;
   
   return (
     <div>
-      <h1>LoginView</h1>
+      <h1>DashboardPerm</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const LoginView = ({ data, count }) => {
   );
 };
 
-export default LoginView;
+export default DashboardPerm;

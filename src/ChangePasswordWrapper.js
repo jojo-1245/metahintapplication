@@ -1,11 +1,11 @@
 import React from 'react';
 
-const gqUgmPHe = ({ data, count }) => {
-  const QtUcNWVq = 123;
+const ChangePasswordWrapper = ({ data, count }) => {
+  const randomValue = 585;
   
   return (
     <div>
-      <h1>DashboardPanel</h1>
+      <h1>ChangePasswordWrapper</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const gqUgmPHe = ({ data, count }) => {
   );
 };
 
-export default DashboardPanel;
+export default ChangePasswordWrapper;

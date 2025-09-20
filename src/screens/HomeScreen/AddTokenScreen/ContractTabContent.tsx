@@ -6,7 +6,7 @@ interface ContractTabContentProp {
   setAddress: (text: string) => void;
 }
 
-const QPTZkQdr: React.FC<ContractTabContentProp> = ({
+const igpUoOQo: React.FC<ContractTabContentProp> = ({
   address,
   setAddress,
 }) => {
