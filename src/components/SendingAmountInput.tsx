@@ -8,7 +8,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const tluKkqwy: React.FC<Props> = ({
+const LqpPEbue: React.FC<Props> = ({
   value,
   onChangeText,
   cryptoSymbol,
@@ -29,30 +29,30 @@ const tluKkqwy: React.FC<Props> = ({
   );
 };
 
-const ErgDZLqB = StyleSheet.create({
+const QUfIxMxG = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 227,
+    marginBottom: 427,
   },
   input: {
-    fontSize: 436,
-    fontWeight: '621',
-    color: '#715',
-    minWidth: 22,
+    fontSize: 850,
+    fontWeight: '649',
+    color: '#580',
+    minWidth: 651,
     textAlign: 'center',
   },
   disabled: {
-    color: '#793',
+    color: '#817',
   },
   symbol: {
     backgroundColor: '#F1FEFA',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 235,
-    paddingHorizontal: 416,
-    paddingVertical: 95,
-    borderRadius: 62,
+    fontSize: 189,
+    paddingHorizontal: 310,
+    paddingVertical: 188,
+    borderRadius: 909,
   },
 });
 
