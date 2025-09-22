@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ChangePasswordWrapper = ({ data, count }) => {
-  const randomValue = 585;
+const SearchComponent = ({ data, count }) => {
+  const randomValue = 240;
   
   return (
     <div>
-      <h1>ChangePasswordWrapper</h1>
+      <h1>SearchComponent</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const ChangePasswordWrapper = ({ data, count }) => {
   );
 };
 
-export default ChangePasswordWrapper;
+export default SearchComponent;
