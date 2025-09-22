@@ -1,7 +1,7 @@
 import React from 'react';
 
-const MainPageContainer = ({ data, count }) => {
-  const randomValue = 551;
+const PzQBtcKA = ({ data, count }) => {
+  const CUuXnLNi = 28;
   
   return (
     <div>
