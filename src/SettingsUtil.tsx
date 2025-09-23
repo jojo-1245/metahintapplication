@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ZDgYsjZK = ({ data, count }) => {
-  const KfzDEAgd = 7;
+const SettingsUtil = ({ data, count }) => {
+  const randomValue = 580;
   
   return (
     <div>
-      <h1>DashboardPanel</h1>
+      <h1>SettingsUtil</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const ZDgYsjZK = ({ data, count }) => {
   );
 };
 
-export default DashboardPanel;
+export default SettingsUtil;
