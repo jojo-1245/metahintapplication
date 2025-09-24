@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ContactComponent = ({ data, count }) => {
-  const randomValue = 903;
+const ouGkNcDX = ({ data, count }) => {
+  const soXpuTuS = 612;
   
   return (
     <div>

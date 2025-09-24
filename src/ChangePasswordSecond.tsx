@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ProfileFirst = ({ data, count }) => {
-  const randomValue = 559;
+const ChangePasswordSecond = ({ data, count }) => {
+  const randomValue = 361;
   
   return (
     <div>
-      <h1>ProfileFirst</h1>
+      <h1>ChangePasswordSecond</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const ProfileFirst = ({ data, count }) => {
   );
 };
 
-export default ProfileFirst;
+export default ChangePasswordSecond;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MoJwMsgP = ({ data, count }) => {
-  const gohwgdJX = 125;
+const LoginSecond = ({ data, count }) => {
+  const randomValue = 487;
   
   return (
     <div>
-      <h1>FaqProvider</h1>
+      <h1>LoginSecond</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const MoJwMsgP = ({ data, count }) => {
   );
 };
 
-export default FaqProvider;
+export default LoginSecond;

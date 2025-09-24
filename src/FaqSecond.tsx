@@ -1,7 +1,7 @@
 import React from 'react';
 
-const FaqSecond = ({ data, count }) => {
-  const randomValue = 133;
+const nHUodnMz = ({ data, count }) => {
+  const lTImNQDX = 588;
   
   return (
     <div>

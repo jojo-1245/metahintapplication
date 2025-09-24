@@ -1,11 +1,11 @@
 import React from 'react';
 
-const DashboardScreen = ({ data, count }) => {
-  const randomValue = 339;
+const ContactPage = ({ data, count }) => {
+  const randomValue = 825;
   
   return (
     <div>
-      <h1>DashboardScreen</h1>
+      <h1>ContactPage</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const DashboardScreen = ({ data, count }) => {
   );
 };
 
-export default DashboardScreen;
+export default ContactPage;
