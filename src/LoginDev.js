@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LoginDev = ({ data, count }) => {
-  const randomValue = 687;
+  const randomValue = 561;
   
   return (
     <div>
