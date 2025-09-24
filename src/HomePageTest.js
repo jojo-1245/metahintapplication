@@ -1,11 +1,11 @@
 import React from 'react';
 
-const UserInfoUtil = ({ data, count }) => {
-  const randomValue = 646;
+const HomePageTest = ({ data, count }) => {
+  const randomValue = 138;
   
   return (
     <div>
-      <h1>UserInfoUtil</h1>
+      <h1>HomePageTest</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const UserInfoUtil = ({ data, count }) => {
   );
 };
 
-export default UserInfoUtil;
+export default HomePageTest;

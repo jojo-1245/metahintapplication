@@ -1,7 +1,7 @@
 import React from 'react';
 
-const PrivacyPolicyService = ({ data, count }) => {
-  const randomValue = 390;
+const QLCfKkqp = ({ data, count }) => {
+  const qiswnabN = 940;
   
   return (
     <div>

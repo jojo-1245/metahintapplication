@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ProfileComponent = ({ data, count }) => {
-  const randomValue = 626;
+const MainPageBeta = ({ data, count }) => {
+  const randomValue = 168;
   
   return (
     <div>
-      <h1>ProfileComponent</h1>
+      <h1>MainPageBeta</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const ProfileComponent = ({ data, count }) => {
   );
 };
 
-export default ProfileComponent;
+export default MainPageBeta;

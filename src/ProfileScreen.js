@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ProfileScreen = ({ data, count }) => {
-  const randomValue = 673;
+const XFDNyEUi = ({ data, count }) => {
+  const oZsDTOSG = 627;
   
   return (
     <div>
