@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SearchComponent = ({ data, count }) => {
-  const randomValue = 240;
+const OUOMTuob = ({ data, count }) => {
+  const yeCjVIwV = 934;
   
   return (
     <div>

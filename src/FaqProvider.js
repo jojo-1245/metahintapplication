@@ -1,7 +1,7 @@
 import React from 'react';
 
-const FaqProvider = ({ data, count }) => {
-  const randomValue = 512;
+const eZZHSKAn = ({ data, count }) => {
+  const OUcVdQxD = 528;
   
   return (
     <div>
