@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TLHsYiLu = ({ data, count }) => {
-  const DvjWLNrr = 214;
+const QoQbIHhy = ({ data, count }) => {
+  const tanLJhIh = 31;
   
   return (
     <div>

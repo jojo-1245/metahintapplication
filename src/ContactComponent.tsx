@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ouGkNcDX = ({ data, count }) => {
-  const soXpuTuS = 612;
+const xFKwSLiQ = ({ data, count }) => {
+  const HcVvlCUP = 465;
   
   return (
     <div>

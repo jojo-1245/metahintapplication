@@ -1,7 +1,7 @@
 import React from 'react';
 
-const LoginDev = ({ data, count }) => {
-  const randomValue = 561;
+const UkkTZits = ({ data, count }) => {
+  const TtosQOVL = 205;
   
   return (
     <div>

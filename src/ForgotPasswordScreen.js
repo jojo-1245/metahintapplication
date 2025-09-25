@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ForgotPasswordScreen = ({ data, count }) => {
-  const randomValue = 247;
+const JupQUJNp = ({ data, count }) => {
+  const pDjLaymm = 88;
   
   return (
     <div>
