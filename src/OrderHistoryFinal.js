@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MainPageBeta = ({ data, count }) => {
-  const randomValue = 168;
+const OrderHistoryFinal = ({ data, count }) => {
+  const randomValue = 182;
   
   return (
     <div>
-      <h1>MainPageBeta</h1>
+      <h1>OrderHistoryFinal</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const MainPageBeta = ({ data, count }) => {
   );
 };
 
-export default MainPageBeta;
+export default OrderHistoryFinal;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ProfileFinal = ({ data, count }) => {
-  const randomValue = 921;
+const TLHsYiLu = ({ data, count }) => {
+  const DvjWLNrr = 214;
   
   return (
     <div>

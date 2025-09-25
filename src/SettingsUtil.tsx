@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SettingsUtil = ({ data, count }) => {
-  const randomValue = 580;
+const qlKXhXTO = ({ data, count }) => {
+  const CWHIeAkB = 516;
   
   return (
     <div>
