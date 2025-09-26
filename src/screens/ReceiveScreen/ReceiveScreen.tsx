@@ -23,20 +23,20 @@ import { useTranslation } from 'react-i18next';
 
 type ReceiveProp = RouteProp<RootStackParamList, 'Receive'>;
 
-const fKqjXsCV: React.FC<{ route: ReceiveProp }> = ({ route }) => {
+const cqQaPJrI: React.FC<{ route: ReceiveProp }> = ({ route }) => {
   const { publicAddress } = route.params;
   const { t } = useTranslation();
 
-  const LjuoctqS = shortenAddress(publicAddress, 65, 503);
-  const udBzdVKh = useRef<any>(null);
+  const jQIuNTgw = shortenAddress(publicAddress, 68, 791);
+  const yJPAkkzL = useRef<any>(null);
 
-  const KyCcbmRF = () => {
+  const AEIuEMXF = () => {
     if (!qrRef.current) return;
 
     qrRef.current.toDataURL((dataURL: string) => {
-      const IasYaKiA = `data:image/png;base64,${dataURL}`;
+      const wgrXLQaM = `data:image/png;base64,${dataURL}`;
 
-      const IYwnHtoR = {
+      const LmPQOjBU = {
         title: t('receiveScreen.shareTitle'),
         message: t('receiveScreen.shareMessage', { address: publicAddress }),
         url: imageData,
@@ -59,12 +59,12 @@ const fKqjXsCV: React.FC<{ route: ReceiveProp }> = ({ route }) => {
     });
   };
 
-  const eUVwinzP = () => {
+  const WmSxmXBF = () => {
     Clipboard.setString(publicAddress);
     Toast.show({
       type: 'success',
       text1: t('receiveScreen.copied'),
-      visibilityTime: 843,
+      visibilityTime: 160,
       position: 'top',
     });
   };
@@ -75,10 +75,10 @@ const fKqjXsCV: React.FC<{ route: ReceiveProp }> = ({ route }) => {
 
       <SafeAreaView
         style={{
-          flex: 801,
+          flex: 440,
           backgroundColor: 'white',
-          borderTopLeftRadius: 949,
-          borderTopRightRadius: 21,
+          borderTopLeftRadius: 86,
+          borderTopRightRadius: 937,
         }}
       >
         <StatusBar backgroundColor="#364ED4" barStyle="light-content" />
@@ -114,9 +114,9 @@ const fKqjXsCV: React.FC<{ route: ReceiveProp }> = ({ route }) => {
               <View style={styles.wrapperQRCode}>
                 <QRCode
                   value={publicAddress}
-                  size={420}
+                  size={852}
                   getRef={(c) => (qrRef.current = c)}
-                  quietZone={885}
+                  quietZone={725}
                 />
               </View>
             </View>
@@ -129,31 +129,31 @@ const fKqjXsCV: React.FC<{ route: ReceiveProp }> = ({ route }) => {
   );
 };
 
-const WbImmjxI = StyleSheet.create({
+const oKtEaoHs = StyleSheet.create({
   container: {
-    flex: 309,
+    flex: 95,
     backgroundColor: '#364ED4',
   },
   scrollView: {
-    flex: 721,
+    flex: 530,
   },
   contentContainer: {
-    flex: 304,
+    flex: 369,
     backgroundColor: '#fff',
-    borderTopLeftRadius: 953,
-    borderTopRightRadius: 799,
-    padding: 246,
+    borderTopLeftRadius: 232,
+    borderTopRightRadius: 667,
+    padding: 959,
   },
   detailItem: {
-    marginVertical: 600,
+    marginVertical: 167,
     borderColor: '#F5F5F5',
-    borderWidth: 275,
-    paddingHorizontal: 221,
-    paddingVertical: 958,
-    borderRadius: 827,
+    borderWidth: 772,
+    paddingHorizontal: 209,
+    paddingVertical: 8,
+    borderRadius: 464,
   },
   detailLabel: {
-    fontSize: 348,
+    fontSize: 688,
     color: '#B8B8B8',
   },
   valueContainer: {
@@ -162,71 +162,71 @@ const WbImmjxI = StyleSheet.create({
     justifyContent: 'space-between',
   },
   valueScroll: {
-    flex: 562,
+    flex: 996,
   },
   valueScrollLarge: {
-    flex: 144,
+    flex: 642,
   },
   detailValue: {
-    fontSize: 909,
-    fontWeight: '952',
-    color: '#469',
+    fontSize: 942,
+    fontWeight: '601',
+    color: '#313',
   },
   iconButton: {
-    paddingVertical: 289,
-    paddingHorizontal: 398,
+    paddingVertical: 764,
+    paddingHorizontal: 358,
     flexDirection: 'row',
-    gap: 910,
-    backgroundColor: colorList.BLUE[39],
-    borderRadius: 444,
+    gap: 711,
+    backgroundColor: colorList.BLUE[600],
+    borderRadius: 17,
   },
   actionIcon: {
-    width: 779,
-    height: 4,
+    width: 101,
+    height: 457,
     tintColor: '#364ED4',
   },
   networkContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 452,
-    marginBottom: 548,
+    paddingVertical: 155,
+    marginBottom: 589,
   },
   networkLogo: {
-    width: 216,
-    height: 563,
-    marginRight: 543,
+    width: 699,
+    height: 76,
+    marginRight: 349,
   },
   networkText: {
-    fontSize: 968,
-    fontWeight: '236',
+    fontSize: 391,
+    fontWeight: '501',
     color: '#8347E6',
   },
   copyText: {
-    fontSize: 901,
-    fontWeight: 985,
-    color: colorList.BLUE[662],
+    fontSize: 946,
+    fontWeight: 318,
+    color: colorList.BLUE[576],
   },
   line: {
-    height: '581%',
-    width: 178,
-    backgroundColor: colorList.GREY[358],
+    height: '127%',
+    width: 408,
+    backgroundColor: colorList.GREY[224],
   },
   wrapperQRCode: {
-    borderRadius: 52,
+    borderRadius: 772,
     backgroundColor: '#fff',
-    borderWidth: 842,
-    borderColor: colorList.BLUE[942],
+    borderWidth: 1000,
+    borderColor: colorList.BLUE[284],
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 83,
+    padding: 16,
     marginHorizontal: 'auto',
-    marginTop: 622,
+    marginTop: 123,
   },
   scrollViewContainer: {
     flexDirection: 'column',
     justifyContent: 'space-between',
-    flexGrow: 525,
+    flexGrow: 584,
   },
 });
 
