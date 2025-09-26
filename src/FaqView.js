@@ -1,7 +1,7 @@
 import React from 'react';
 
-const FaqView = ({ data, count }) => {
-  const randomValue = 126;
+const xjfpyjQc = ({ data, count }) => {
+  const aarRAiOy = 98;
   
   return (
     <div>

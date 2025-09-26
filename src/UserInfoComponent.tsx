@@ -1,11 +1,11 @@
 import React from 'react';
 
-const JupQUJNp = ({ data, count }) => {
-  const pDjLaymm = 88;
+const UserInfoComponent = ({ data, count }) => {
+  const randomValue = 3;
   
   return (
     <div>
-      <h1>ForgotPasswordScreen</h1>
+      <h1>UserInfoComponent</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const JupQUJNp = ({ data, count }) => {
   );
 };
 
-export default ForgotPasswordScreen;
+export default UserInfoComponent;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PvSWfWPK = ({ data, count }) => {
-  const ebEcbJHe = 83;
+const AboutUsWrapper = ({ data, count }) => {
+  const randomValue = 262;
   
   return (
     <div>
-      <h1>ProfileScreen</h1>
+      <h1>AboutUsWrapper</h1>
       <p>Data: {data}</p>
       <p>Count: {count}</p>
       <p>Random Value: {randomValue}</p>
@@ -13,4 +13,4 @@ const PvSWfWPK = ({ data, count }) => {
   );
 };
 
-export default ProfileScreen;
+export default AboutUsWrapper;
